@@ -1,26 +1,122 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --teal-deep: #248999;
+  --teal-dark: #136368;
+  --emerald: #0D816A;
+  --mint: #1FB873;
+  --white: #FFFFFF;
+  --bg-dark: #091c1f;
+  --bg-card: #0d2a2e;
+  --bg-card-hover: #12383e;
+  --border-color: rgba(255, 255, 255, 0.12);
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
+  color-scheme: dark;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background-color: #091c1f;
+  color: #FFFFFF;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Solid Text Utility - Replaces gradients */
+.text-mint {
+  color: #1FB873;
+}
+
+.text-emerald {
+  color: #0D816A;
+}
+
+.text-teal-deep {
+  color: #248999;
+}
+
+.glass-nav {
+  background-color: #0d2a2e;
+  border-bottom: 1px solid rgba(31, 184, 115, 0.2);
+}
+
+.glass-card {
+  background-color: #0d2a2e;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.glass-card:hover {
+  background-color: #12383e;
+  border-color: #1FB873;
+}
+
+.btn-fun-primary {
+  background-color: #0D816A;
+  color: #FFFFFF;
+  font-weight: 700;
+  border-radius: 9999px;
+  padding: 0.75rem 1.75rem;
+  transition: all 0.2s ease;
+  border: 1px solid #1FB873;
+}
+
+.btn-fun-primary:hover {
+  background-color: #1FB873;
+  color: #091c1f;
+}
+
+.btn-fun-secondary {
+  background-color: #136368;
+  color: #FFFFFF;
+  font-weight: 600;
+  border-radius: 9999px;
+  padding: 0.75rem 1.75rem;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  transition: all 0.2s ease;
+}
+
+.btn-fun-secondary:hover {
+  background-color: #248999;
+  border-color: #FFFFFF;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #091c1f;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #136368;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #1FB873;
+}
+
+/* Leaflet Map Overrides */
+.leaflet-container {
+  width: 100%;
+  height: 100%;
+  border-radius: 1rem;
+  z-index: 10;
+}
+
+.leaflet-popup-content-wrapper {
+  background: #0d2a2e !important;
+  color: #FFFFFF !important;
+  border: 1px solid #1FB873;
+  border-radius: 0.75rem !important;
+}
+
+.leaflet-popup-tip {
+  background: #0d2a2e !important;
 }
