@@ -7,7 +7,7 @@ import Galeri from "./components/Galeri";
 import FAQ from "./components/FAQ";
 import Footer from "./components/Footer";
 
-export default function Hero() {
+export default function Home() {
   return (
     <main className="min-h-screen bg-[#0b0f19] text-white selection:bg-indigo-600 selection:text-white">
       {/* Hero Navbar */}
