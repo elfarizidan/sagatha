@@ -38,12 +38,12 @@ export default function Footer() {
                 <FontAwesomeIcon icon={faTrophy} className="text-xl" />
               </div>
               <span className="text-2xl font-black tracking-wider text-white">
-                SAGATHA <span className="text-[#1FB873] text-sm font-bold">2026</span>
+                SAGATHA IV<span className="text-[#1FB873] text-sm font-bold">2026</span>
               </span>
             </div>
 
             <p className="text-sm text-white/80 leading-relaxed">
-              Semarak Artefak &amp; Gelar Talenta — Ajang kejuaraan pelajar bergengsi menghadirkan kompetisi Futsal, Speech, Olimpiade Matematika, dan MHQ.
+              SAGATHA IV, Ajang kejuaraan santri dan siswa jenjang SMP/MTs/Sederajat di seluruh Indonesia khususnya di Jawa Barat dan JaBoDeTaBek yang menghadirkan kompetisi Futsal, Speech, OSN Matematika, Mural, Puisi, dan MHQ.
             </p>
 
             {/* Social Media Links */}
@@ -74,7 +74,7 @@ export default function Footer() {
                   href="https://wa.me/6281234567890"
                   target="_blank"
                   rel="noopener noreferrer"
-                  aria-label="WhatsApp SAGATHA"
+                  aria-label="WhatsApp  Admin SAGATHA IV"
                   className="w-11 h-11 rounded-xl bg-[#0d2a2e] border border-white/10 flex items-center justify-center text-[#1FB873] hover:bg-[#1FB873] hover:text-[#091c1f] transition-all duration-300 shadow-md"
                 >
                   <FontAwesomeIcon icon={faWhatsapp} className="text-xl" />
@@ -149,7 +149,7 @@ export default function Footer() {
           <div className="lg:col-span-5 space-y-4">
             <h4 className="text-sm font-extrabold uppercase tracking-widest text-[#1FB873] border-b border-white/10 pb-2 flex items-center gap-2">
               <FontAwesomeIcon icon={faMapMarkerAlt} className="text-[#1FB873]" />
-              Lokasi &amp; Peta Venue Event
+              Lokasi &amp; Peta SAGATHA IV
             </h4>
 
             <div className="bg-[#0d2a2e] p-4 rounded-2xl border border-white/10 text-xs leading-relaxed space-y-2">
@@ -158,7 +158,7 @@ export default function Footer() {
               </span>
               <p className="text-white/80">{VENUE_CONFIG.address}</p>
               <div className="text-[11px] text-white/60 pt-1 font-mono">
-                Koordinat Maps: {VENUE_CONFIG.latitude}, {VENUE_CONFIG.longitude} (Dapat disesuaikan)
+                Koordinat Maps: {VENUE_CONFIG.latitude}, {VENUE_CONFIG.longitude}
               </div>
             </div>
 
