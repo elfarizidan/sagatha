@@ -111,7 +111,7 @@ export default function Footer() {
                 <div>
                   <span className="text-[11px] text-white/70 block font-semibold">Email Resmi</span>
                   <span className="text-sm font-bold text-white group-hover:text-[#1FB873] transition">
-                    bestmaittbzbs@gmail.com
+                    bestsmaittbzbs@gmail.com
                   </span>
                 </div>
               </a>
