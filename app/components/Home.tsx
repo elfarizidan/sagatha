@@ -23,7 +23,7 @@ import gsap from "gsap";
 export const EVENT_TARGET_DATE = "2026-11-14T07:30:05";
 
 export default function Hero() {
-  const heroRef = useRef<HTMLDivElement>(null);
+  const homeRef = useRef<HTMLDivElement>(null);
   const titleRef = useRef<HTMLHeadingElement>(null);
   const subtitleRef = useRef<HTMLParagraphElement>(null);
   const ctaRef = useRef<HTMLDivElement>(null);
@@ -83,7 +83,7 @@ export default function Hero() {
           { opacity: 1, y: 0, duration: 0.8 },
           "-=0.4"
         );
-    }, heroRef);
+    }, homeRef);
 
     return () => ctx.revert();
   }, []);
