@@ -11,8 +11,8 @@ export const VENUE_CONFIG = {
   latitude: -6.2847, // Default Latitude (Bekasi / West Java area)
   longitude: 107.0025, // Default Longitude
   zoom: 15,
-  venueName: "SAGATHA Event Center - Thariq Boarding Campus",
-  address: "Jl. Terusan KH. Noer Ali, Grand Galaxy City, Bekasi, Jawa Barat 17148",
+  venueName: "SAGATHA IV - Thariq Bin Ziyad Boarding School",
+  address: "Perumahan Grand Cikarang City, Karangraharja, Kec. Cikarang Utara, Kabupaten Bekasi, Jawa Barat 17530",
 };
 
 export default function LeafletMap() {
