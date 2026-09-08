@@ -94,7 +94,7 @@ export default function Footer() {
                   <FontAwesomeIcon icon={faWhatsapp} className="text-lg" />
                 </div>
                 <div>
-                  <span className="text-[11px] text-white/70 block font-semibold">WhatsApp Helpdesk</span>
+                  <span className="text-[11px] text-white/70 block font-semibold">WhatsApp Admin</span>
                   <span className="text-sm font-bold text-white group-hover:text-[#1FB873] transition">
                     +62 812-3456-7890
                   </span>
@@ -111,7 +111,7 @@ export default function Footer() {
                 <div>
                   <span className="text-[11px] text-white/70 block font-semibold">Email Resmi</span>
                   <span className="text-sm font-bold text-white group-hover:text-[#1FB873] transition">
-                    info@sagatha-event.id
+                    bestmaittbzbs@gmail.com
                   </span>
                 </div>
               </a>
@@ -121,7 +121,7 @@ export default function Footer() {
           {/* Col 2: Navigation Links (3 cols) */}
           <div className="lg:col-span-3 space-y-4">
             <h4 className="text-sm font-extrabold uppercase tracking-widest text-[#1FB873] border-b border-white/10 pb-2">
-              Navigasi Cepat
+             Laman
             </h4>
             <ul className="space-y-2.5 text-sm font-medium">
               {[
