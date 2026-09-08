@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "SAGATHA 2026 | Semarak Artefak & Gelar Talenta Youth Competition Event",
+  title: "SAGATHA IV | Saga Thariq IV",
   description:
-    "Official website SAGATHA 2026. Kompetisi Futsal Championship, Speech Contest, Olimpiade Matematika, dan Musabaqah Hifzhil Qur'an (MHQ). Total Hadiah Puluhan Juta Rupiah!",
+    "Official website SAGATHA IV. Kompetisi Futsal, Speech, OSN Matematika, Puisi, Mural, dan Musabaqah Hifzhil Qur'an (MHQ). Total Hadiah Puluhan Juta Rupiah!",
 };
 
 export default function RootLayout({
