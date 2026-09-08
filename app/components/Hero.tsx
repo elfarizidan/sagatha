@@ -23,7 +23,7 @@ import gsap from "gsap";
 export const EVENT_TARGET_DATE = "2026-11-14T07:30:05";
 
 export default function Hero() {
-  const homeRef = useRef<HTMLDivElement>(null);
+  const heroRef = useRef<HTMLDivElement>(null);
   const titleRef = useRef<HTMLHeadingElement>(null);
   const subtitleRef = useRef<HTMLParagraphElement>(null);
   const ctaRef = useRef<HTMLDivElement>(null);
@@ -83,15 +83,15 @@ export default function Hero() {
           { opacity: 1, y: 0, duration: 0.8 },
           "-=0.4"
         );
-    }, homeRef);
+    }, heroRef);
 
     return () => ctx.revert();
   }, []);
 
   return (
     <section
-      id="Home"
-      ref={homeRef}
+      id="Hero"
+      ref={heroRef}
       className="relative min-h-screen flex items-center justify-center pt-36 sm:pt-44 md:pt-48 pb-20 overflow-hidden bg-[#248999]"
     >
       {/* Full-bleed Background Image from public/content */}
