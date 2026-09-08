@@ -101,7 +101,7 @@ export default function FAQ() {
             Frequently Asked <span className="text-[#1FB873]">Questions</span>
           </h2>
           <p className="mt-4 text-base text-white/80">
-            Temukan jawaban atas pertanyaan yang paling sering diajukan seputar event SAGATHA 2026.
+            Temukan jawaban atas pertanyaan yang paling sering diajukan seputar event SAGATHA.
           </p>
         </div>
 
@@ -150,7 +150,7 @@ export default function FAQ() {
         {/* Additional Help Callout */}
         <div className="mt-12 text-center p-6 rounded-2xl bg-[#0d2a2e] border border-[#1FB873]/30">
           <p className="text-sm text-white/80">
-            Punya pertanyaan lain yang belum terjawab? Kontak langsung CS Helpdesk kami melalui WhatsApp!
+            Punya pertanyaan lain yang belum terjawab? Kontak langsung Admin CS kami melalui WhatsApp!
           </p>
           <a
             href="https://wa.me/6281234567890?text=Halo%20Admin%20SAGATHA,%20saya%20punya%20pertanyaan"
