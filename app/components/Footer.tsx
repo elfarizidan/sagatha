@@ -127,7 +127,7 @@ export default function Footer() {
               {[
                 { name: "Hero Page", href: "#hero" },
                 { name: "About SAGATHA", href: "#about" },
-                { name: "List Lomba (Futsal, Speech, Olim, MHQ)", href: "#lomba" },
+                { name: "List Lomba (Futsal, Speech, OSN MTK, Puisi, Mural, MHQ)", href: "#lomba" },
                 { name: "Livestream Stage", href: "#livestream" },
                 { name: "Galeri Dokumentasi", href: "#galeri" },
                 { name: "FAQ Accordion", href: "#faq" },
