@@ -22,13 +22,13 @@ export default function FAQ() {
   const faqs: FAQItem[] = [
     {
       id: 1,
-      question: "Apa itu SAGATHA 2026?",
+      question: "Apa itu SAGATHA IV?",
       answer:
         "SAGATHA (Saga Thariq) adalah event kompetisi tahunan tingkat pelajar SMP/MTs/Sederajat yang diselenggarakan untuk mengasah serta merayakan talenta di bidang olahraga (Futsal), kebahasaan (Speech), sains (Olimpiade Matematika), seni (Mural & Puisi), dan keagamaan (MHQ).",
     },
     {
       id: 2,
-      question: "Siapa saja yang berhak mendaftar kompetisi SAGATHA?",
+      question: "Siapa saja yang berhak mendaftar kompetisi SAGATHA IV?",
       answer:
         "Peserta terbuka untuk santri atau peserta didik aktif tingkat SMP/MTs/Sederaja dari berbagai sekolah di seluruh Indonesia khususnya Jawa Barat dan JaBoDeTaBek sesuai dengan kategori syarat yang tercantum di masing-masing cabang lomba.",
     },
@@ -36,7 +36,7 @@ export default function FAQ() {
       id: 3,
       question: "Bagaimana cara melakukan pendaftaran dan pembayaran?",
       answer:
-        "Pendaftaran dilakukan secara langsung online dengan memilih cabang lomba pada website ini, klik 'Detail & Syarat', lalu tekan tombol 'Daftar' dan langsung terhubung dengan google form untuk mengisi pendaftaran lomba, atau bisa klik whatsapp untuk bertanya terlebih dahulu kepada panitia yang berasangkutan.",
+        "Pembayaran bisa melihat tampilan menu di atas dengan nama 'Metode Pembayaran' dan tinggal ikuti instruksi di dalamnya. Pendaftaran dilakukan secara langsung online dengan memilih cabang lomba pada website ini, klik 'Detail & Syarat', lalu tekan tombol 'Daftar' dan langsung terhubung dengan google form untuk mengisi pendaftaran lomba, atau bisa klik whatsapp untuk bertanya terlebih dahulu kepada panitia yang berasangkutan.",
     },
     {
       id: 4,
@@ -46,13 +46,13 @@ export default function FAQ() {
     },
     {
       id: 5,
-      question: "Dimana lokasi venue pelaksanaan pertandingan?",
+      question: "Dimana lokasi SAGATHA IV Dilaksanaan?",
       answer:
         "Seluruh rangkaian lomba dan final akan dilaksanakan di kampus SMAIT Thariq Bin Ziyad Boarding School. Detail petunjuk arah dan peta lokasi interaktif dapat dilihat pada bagian Footer di bawah.",
     },
     {
       id: 6,
-      question: "Apakah supporter dan orang tua bisa datang menonton?",
+      question: "Apakah supporter dan keluarga bisa datang menonton?",
       answer:
         "Sangat diperbolehkan! Supporter sekolah, sanak keluarga, dan umum dapat hadir meramaikan tribun penonton namun harus membayar tiket masuk dengan nominal yang di terakan panitia, atau menyaksikan melalui siaran Livestream Youtube kami.",
     },
@@ -158,7 +158,7 @@ export default function FAQ() {
             rel="noopener noreferrer"
             className="btn-fun-primary inline-flex items-center gap-2 mt-4 text-xs sm:text-sm py-2.5 px-6"
           >
-            <span>Hubungi Helpdesk</span>
+            <span>Hubungi Admin Kami</span>
           </a>
         </div>
       </div>
