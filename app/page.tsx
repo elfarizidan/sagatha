@@ -1,5 +1,5 @@
 import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
+import Home from "./components/Hero";
 import About from "./components/About";
 import ListLomba from "./components/ListLomba";
 import Livestream from "./components/Livestream";
@@ -14,7 +14,7 @@ export default function Home() {
       <Navbar />
 
       {/* 1. Hero Page */}
-      <Hero />
+      <Home />
 
       {/* 2. About */}
       <About />
