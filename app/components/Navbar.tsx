@@ -48,7 +48,7 @@ export default function Navbar() {
           >
             <div className="flex flex-col">
               <span className="text-2xl font-black tracking-wider text-white flex items-center gap-1.5">
-                SAGATHA<span className="text-[#1FB873] text-sm font-extrabold px-2 py-0.5 rounded bg-[#136368] border border-[#248999]">2026</span>
+                SAGATHA IV<span className="text-[#1FB873] text-sm font-extrabold px-2 py-0.5 rounded bg-[#136368] border border-[#248999]">2026</span>
               </span>
               <span className="text-[10px] text-[#248999] uppercase font-semibold tracking-widest -mt-0.5">
                 Youth Competition Event
