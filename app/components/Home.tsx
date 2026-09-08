@@ -17,10 +17,10 @@ import gsap from "gsap";
   ====================================================================
   COUNTDOWN TARGET DATE CONFIGURATION 
   Change this string to set your own target date and time:
-  Format: "YYYY-MM-DDTHH:mm:ss" (e.g. "2026-11-14T08:00:00")
+  Format: "YYYY-MM-DDTHH:mm:ss" (e.g. "2026-11-14T07:30:05")
   ====================================================================
 */
-export const EVENT_TARGET_DATE = "2026-11-14T00:00:00";
+export const EVENT_TARGET_DATE = "2026-11-14T07:30:05";
 
 export default function Hero() {
   const heroRef = useRef<HTMLDivElement>(null);
@@ -111,7 +111,7 @@ export default function Hero() {
           ref={titleRef}
           className="mt-6 sm:mt-10 md:mt-12 text-5xl sm:text-7xl md:text-8xl lg:text-9xl font-black text-white tracking-tight max-w-5xl leading-none text-center mx-auto"
         >
-          <span className="text-[#ffffff] block text-center">SAGATHA 2026</span>
+          <span className="text-[#ffffff] block text-center">SAGATHA IV</span>
         </h1>
 
         {/* Tagline */}
@@ -119,7 +119,7 @@ export default function Hero() {
           ref={subtitleRef}
           className="mt-6 text-lg sm:text-2xl text-white max-w-3xl font-medium leading-relaxed"
         >
-          Ajang kompetisi siswa SMP bergengsi yang sudah berjalan dari tahun 2023. Dibuka untuk seluruh siswa SMP
+          Rooted in Purpose, Growing with Passion
         </p>
 
         {/* Countdown Timer Display */}
@@ -175,8 +175,8 @@ export default function Hero() {
           </div>
           <div className="flex flex-col items-center p-3 border-l border-white/20">
             <FontAwesomeIcon icon={faTrophy} className="text-[#1FB873] text-2xl mb-2" />
-            <span className="text-2xl sm:text-3xl font-black text-white">4 Lomba Utama</span>
-            <span className="text-xs text-white/90 font-medium">Futsal, Speech, Olim, MHQ</span>
+            <span className="text-2xl sm:text-3xl font-black text-white">6 Cabang Lomba</span>
+            <span className="text-xs text-white/90 font-medium">Futsal, Speech, OSN MTK, MHQ, Mural, Puisi</span>
           </div>
           <div className="flex flex-col items-center p-3 border-l border-white/20">
             <FontAwesomeIcon icon={faUsers} className="text-[#1FB873] text-2xl mb-2" />
@@ -185,7 +185,7 @@ export default function Hero() {
           </div>
           <div className="flex flex-col items-center p-3 border-l border-white/20">
             <FontAwesomeIcon icon={faCalendarAlt} className="text-[#1FB873] text-2xl mb-2" />
-            <span className="text-2xl sm:text-3xl font-black text-white">14-16 NOV 2026</span>
+            <span className="text-2xl sm:text-3xl font-black text-white">13-15 NOV 2026</span>
             <span className="text-xs text-white/90 font-medium">Tanggal Event</span>
           </div>
         </div>
