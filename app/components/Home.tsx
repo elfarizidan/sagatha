@@ -90,8 +90,8 @@ export default function Hero() {
 
   return (
     <section
-      id="hero"
-      ref={heroRef}
+      id="Home"
+      ref={homeRef}
       className="relative min-h-screen flex items-center justify-center pt-36 sm:pt-44 md:pt-48 pb-20 overflow-hidden bg-[#248999]"
     >
       {/* Full-bleed Background Image from public/content */}
