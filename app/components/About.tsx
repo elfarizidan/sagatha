@@ -46,9 +46,9 @@ export default function About() {
   const features = [
     {
       icon: faTrophy,
-      title: "Hadiah & Trofi Bergengsi",
+      title: "Hadiah & Trofi",
       description:
-        "Total hadiah tunai puluhan juta rupiah, medali kejuaraan, sertifikat resmi, dan trofi bergilir SAGATHA 2026.",
+        "Total hadiah tunai puluhan juta rupiah, medali kejuaraan, sertifikat resmi, dan trofi bergilir SAGATHA.",
       bgColor: "bg-[#0D816A]",
       iconColor: "text-[#FFFFFF]",
     },
@@ -62,17 +62,17 @@ export default function About() {
     },
     {
       icon: faTv,
-      title: "Live Stream Stage",
+      title: "Live Stream",
       description:
-        "Seluruh pertandingan utama disiarkan secara live stream HD untuk supporter dan keluarga dari seluruh penjuru.",
+        "Seluruh pertandingan utama disiarkan secara live stream untuk supporter dan keluarga dari seluruh penjuru.",
       bgColor: "bg-[#248999]",
       iconColor: "text-[#FFFFFF]",
     },
     {
       icon: faCertificate,
-      title: "Sertifikat Berakreditasi",
+      title: "Sertifikat Penghargaan",
       description:
-        "Setiap peserta mendapatkan sertifikat apresiasi resmi yang berharga untuk portofolio prestasi akademis & non-akademis.",
+        "Setiap peserta mendapatkan sertifikat apresiasi resmi yang berharga untuk portofolio/CV prestasi akademis & non-akademis.",
       bgColor: "bg-[#1FB873]",
       iconColor: "text-[#091c1f]",
     },
@@ -92,10 +92,10 @@ export default function About() {
             <span>TENTANG EVENT</span>
           </div>
           <h2 className="text-3xl sm:text-5xl font-black text-white tracking-tight">
-            Apa Itu <span className="text-[#1FB873]">SAGATHA 2026?</span>
+            Apa Itu <span className="text-[#1FB873]">SAGATHA IV 2026?</span>
           </h2>
           <p className="mt-4 text-base sm:text-lg text-white/80 leading-relaxed">
-            <strong className="text-white">SAGATHA (Semarak Artefak &amp; Gelar Talenta)</strong> adalah ajang kompetisi tahunan bergengsi yang mewadahi minat, bakat, serta kreativitas generasi muda di bidang olahraga, kebahasaan, sains, dan keagamaan.
+            <strong className="text-white">SAGATHA IV (Saga Thariq IV)</strong> adalah ajang kompetisi tahunan bergengsi yang mewadahi minat, bakat, serta kreativitas generasi muda di bidang olahraga, kebahasaan, sains, sasatra, dan keagamaan.
           </p>
         </div>
 
@@ -134,7 +134,7 @@ export default function About() {
                 Mencetak Generasi Berprestasi, Sportif &amp; Berkarakter
               </h3>
               <p className="text-white/80 text-sm sm:text-base leading-relaxed">
-                Melalui kompetisi Futsal, Speech, Olimpiade Matematika, dan Musabaqah Hifzhil Qur'an (MHQ), SAGATHA 2026 berkomitmen menghadirkan atmosfer kompetisi yang positif, sehat, dan memacu keunggulan intelektual serta spiritual.
+                Melalui kompetisi Futsal, Puisi, Mural, Speech, Olimpiade Matematika, dan Musabaqah Hifzhil Qur'an (MHQ), SAGATHA 2026 berkomitmen menghadirkan atmosfer kompetisi yang positif, sehat, dan memacu keunggulan intelektual serta spiritual.
               </p>
             </div>
 
