@@ -19,7 +19,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
   Update the link below to your event Google Drive folder:
   ====================================================================
 */
-export const GOOGLE_DRIVE_GALLERY_LINK = "https://drive.google.com";
+export const GOOGLE_DRIVE_GALLERY_LINK = "https://drive.google.com/drive/folders/15bXooiiQBnJGVQEnq5NvqpaZNVkXtDeI";
 
 interface GalleryItem {
   id: number;
