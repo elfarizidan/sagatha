@@ -36,14 +36,14 @@ export default function Galeri() {
     {
       id: 1,
       src: "/content/gallery-1.png",
-      title: "Semarak Antusiasme Penonton",
-      desc: "Kemeriahan ribuan supporter sekolah saat grand opening SAGATHA.",
+      title: "Semarak Panitia",
+      desc: "Semangatnya panitia SAGATHA dalam menyelenggarakan dan menyambut seluruh peserta.",
     },
     {
       id: 2,
       src: "/content/gallery-2.png",
       title: "Penyerahan Trofi Kejuaraan",
-      desc: "Kebanggaan tim pemenang saat menerima piala bergilir kehormatan.",
+      desc: "Kebanggaan pemenang saat menerima piala penghargaan.",
     },
     {
       id: 3,
@@ -54,8 +54,8 @@ export default function Galeri() {
     {
       id: 4,
       src: "/content/gallery-4.png",
-      title: "Speech Contest Showcase",
-      desc: "Presentasi memukau dari salah satu finalis lomba pidato di panggung utama.",
+      title: "Kemeriahan Bazzar Sagatha",
+      desc: "Ramainya Bazzar tenant UMKM, mendukung semangat peserta dan tim.",
     },
     {
       id: 5,
