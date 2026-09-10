@@ -48,7 +48,7 @@ export default function About() {
       icon: faTrophy,
       title: "Hadiah & Trofi",
       description:
-        "Total hadiah tunai puluhan juta rupiah, medali kejuaraan, sertifikat resmi, dan trofi bergilir SAGATHA.",
+        "Total hadiah tunai puluhan juta rupiah, medali kejuaraan, sertifikat resmi, dan piala bergilir SAGATHA.",
       bgColor: "bg-[#0D816A]",
       iconColor: "text-[#FFFFFF]",
     },
@@ -56,15 +56,15 @@ export default function About() {
       icon: faShieldHalved,
       title: "Juri Profesional & Objektif",
       description:
-        "Penilaian dilakukan transparan dan ketat oleh juri berpengalaman nasional di masing-masing cabang lomba.",
+        "Penilaian dilakukan transparan dan ketat oleh juri berpengalaman dan kompeten di masing-masing cabang lomba.",
       bgColor: "bg-[#136368]",
       iconColor: "text-[#1FB873]",
     },
     {
       icon: faTv,
-      title: "Live Stream",
+      title: "Live Streaming",
       description:
-        "Seluruh pertandingan utama disiarkan secara live stream untuk supporter dan keluarga dari seluruh penjuru.",
+        "Seluruh pertandingan utama disiarkan secara live stream sebagai bukti dan supporter dari keluarga dan seluruh penjuru sosial media.",
       bgColor: "bg-[#248999]",
       iconColor: "text-[#FFFFFF]",
     },
