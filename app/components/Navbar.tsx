@@ -132,7 +132,7 @@ export default function Navbar() {
           <div className="flex items-center gap-x-3 lg:gap-x-4">
             <a
               href="#lomba"
-              className="inline-flex items-center justify-center whitespace-nowrap rounded-full font-bold transition-all duration-300 bg-[#0D816A] border border-[#1FB873] text-white hover:bg-[#1FB873] hover:text-[#091c1f] uppercase px-4 lg:px-6 py-1.5 lg:py-2 text-xs lg:text-sm shadow-lg gap-2"
+              className="inline-flex items-center justify-center whitespace-nowrap rounded-full font-bold transition-all duration-300 bg-[#0D816A] text-white hover:bg-[#1FB873] hover:text-[#091c1f] uppercase px-4 lg:px-6 py-1.5 lg:py-2 text-xs lg:text-sm shadow-lg gap-2"
             >
               <span>Daftar</span>
               <FontAwesomeIcon icon={faArrowRight} className="text-xs" />

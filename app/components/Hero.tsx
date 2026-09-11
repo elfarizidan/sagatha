@@ -91,7 +91,7 @@ export default function Hero() {
     <section
       id="hero"
       ref={heroRef}
-      className="relative min-h-screen flex items-center justify-center pt-36 sm:pt-44 md:pt-48 pb-20 overflow-hidden bg-[#248999]"
+      className="relative min-h-screen flex items-center justify-center pt-36 sm:pt-44 md:pt-48 pb-20 overflow-hidden bg-[#091c1f]"
     >
       {/* Full-bleed Background Looping Video from public/content */}
       <div className="absolute inset-0 z-0 overflow-hidden">

@@ -99,7 +99,7 @@ export default function Galeri() {
     <section
       id="galeri"
       ref={sectionRef}
-      className="min-h-screen flex flex-col justify-center py-16 lg:py-0 relative overflow-hidden bg-[#248999] text-white"
+      className="min-h-screen flex flex-col justify-center py-16 lg:py-0 relative overflow-hidden bg-[#091c1f] text-white"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 w-full mb-6 lg:mb-10">
         {/* Header */}

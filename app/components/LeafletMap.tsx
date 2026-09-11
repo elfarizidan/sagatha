@@ -46,7 +46,7 @@ export default function LeafletMap() {
   });
 
   return (
-    <div className="w-full h-48 sm:h-56 rounded-2xl overflow-hidden shadow-xl border border-white/10 relative z-0">
+    <div className="w-full h-48 sm:h-56 rounded-2xl overflow-hidden border border-white/10 relative z-0">
       <MapContainer
         center={[VENUE_CONFIG.latitude, VENUE_CONFIG.longitude]}
         zoom={VENUE_CONFIG.zoom}

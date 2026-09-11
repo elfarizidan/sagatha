@@ -61,7 +61,6 @@ body {
   border-radius: 9999px;
   padding: 0.75rem 1.75rem;
   transition: all 0.2s ease;
-  border: 1px solid #1FB873;
 }
 
 .btn-fun-primary:hover {

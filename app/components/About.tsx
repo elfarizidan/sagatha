@@ -62,7 +62,7 @@ export default function About() {
     <section
       id="about"
       ref={sectionRef}
-      className="min-h-screen flex items-center justify-center py-16 lg:py-0 relative overflow-hidden bg-[#0D816A] text-white"
+      className="min-h-screen flex items-center justify-center py-16 lg:py-0 relative overflow-hidden bg-[#091c1f] text-white"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 w-full">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-14 items-center">
