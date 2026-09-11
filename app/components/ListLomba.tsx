@@ -173,7 +173,7 @@ export default function ListLomba() {
         </div>
         <div
           ref={containerRef}
-          className="flex flex-col md:flex-row gap-4 lg:gap-6 min-h-[440px] sm:min-h-[480px] lg:min-h-[520px] max-h-[65vh] w-full"
+          className="flex flex-col md:flex-row gap-4 lg:gap-6 min-h-[440px] sm:min-h-[480px] lg:min-h-[520px] h-auto w-full"
         >
           {lombaList.map((lomba, index) => {
             const isActive = activeIndex === index;

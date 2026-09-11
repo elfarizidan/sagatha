@@ -122,7 +122,7 @@ export default function Galeri() {
             <div
               key={item.id}
               onClick={() => setActiveImage(item)}
-              className="relative w-[300px] sm:w-[460px] lg:w-[540px] h-[360px] sm:h-[440px] rounded-3xl overflow-hidden shadow-2xl border-4 border-white/10 group cursor-pointer flex-shrink-0 bg-[#136368] transform-gpu"
+              className="relative w-[300px] sm:w-[460px] lg:w-[540px] h-[360px] sm:h-[440px] rounded-3xl overflow-hidden group cursor-pointer flex-shrink-0 bg-[#136368] transform-gpu"
             >
               <Image
                 src={item.src}
@@ -134,11 +134,6 @@ export default function Galeri() {
 
               {/* Seamless Dark Gradient Overlay */}
               <div className="absolute -inset-[1px] bg-gradient-to-t from-[#091c1f] via-[#091c1f]/75 to-transparent z-10 pointer-events-none" />
-
-              {/* Expand Icon Badge */}
-              <div className="absolute top-5 right-5 z-20 w-10 h-10 rounded-full bg-[#0D816A] text-[#1FB873] border border-[#1FB873] flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 shadow-lg">
-                <FontAwesomeIcon icon={faExpand} className="text-sm" />
-              </div>
 
               {/* Description Content */}
               <div className="absolute bottom-0 inset-x-0 p-6 sm:p-8 z-20 flex flex-col justify-end">
@@ -157,7 +152,7 @@ export default function Galeri() {
             href={GOOGLE_DRIVE_GALLERY_LINK}
             target="_blank"
             rel="noopener noreferrer"
-            className="relative w-[280px] sm:w-[360px] h-[360px] sm:h-[440px] rounded-3xl overflow-hidden shadow-2xl border-4 border-[#1FB873] bg-[#0D816A] hover:bg-[#1FB873] transition-colors duration-500 group cursor-pointer flex-shrink-0 flex flex-col justify-between p-8 text-white hover:text-[#091c1f]"
+            className="relative w-[280px] sm:w-[360px] h-[360px] sm:h-[440px] rounded-3xl overflow-hidden bg-[#0D816A] hover:bg-[#1FB873] transition-colors duration-500 group cursor-pointer flex-shrink-0 flex flex-col justify-between p-8 text-white hover:text-[#091c1f]"
           >
             <div className="w-14 h-14 rounded-2xl bg-[#136368] text-[#1FB873] group-hover:bg-[#091c1f] group-hover:text-white flex items-center justify-center text-xl shadow-lg border border-[#1FB873]">
               <FontAwesomeIcon icon={faArrowRight} />
@@ -187,7 +182,7 @@ export default function Galeri() {
       {activeImage && (
         <div
           onClick={() => setActiveImage(null)}
-          className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-[#091c1f]/95 backdrop-blur-md animate-in fade-in cursor-pointer"
+          className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-4 bg-[#091c1f]/95 backdrop-blur-md animate-in fade-in cursor-pointer"
         >
           <div
             onClick={(e) => e.stopPropagation()}
@@ -195,12 +190,13 @@ export default function Galeri() {
           >
             <button
               onClick={() => setActiveImage(null)}
-              className="absolute top-4 right-4 z-20 w-10 h-10 rounded-full bg-[#0D816A] text-white hover:bg-[#1FB873] hover:text-[#091c1f] flex items-center justify-center transition"
+              aria-label="Tutup gambar"
+              className="absolute top-3 right-3 sm:top-4 sm:right-4 z-20 w-11 h-11 rounded-full bg-[#0D816A] text-white hover:bg-[#1FB873] hover:text-[#091c1f] flex items-center justify-center transition focus:outline-none focus-visible:ring-2 focus-visible:ring-[#1FB873]"
             >
               <FontAwesomeIcon icon={faTimes} className="text-lg" />
             </button>
 
-            <div className="relative h-[60vh] w-full bg-[#091c1f]">
+            <div className="relative h-[45vh] sm:h-[60vh] w-full bg-[#091c1f]">
               <Image
                 src={activeImage.src}
                 alt={activeImage.title}

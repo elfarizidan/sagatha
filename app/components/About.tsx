@@ -68,7 +68,7 @@ export default function About() {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-14 items-center">
           {/* Left Column: Looping Video */}
           <div ref={imageRef} className="lg:col-span-5 w-full flex justify-center">
-            <div className="relative w-full aspect-[4/5] max-w-md lg:max-w-none rounded-3xl overflow-hidden shadow-2xl border-4 border-white/10 group max-h-[55vh] lg:max-h-[65vh]">
+            <div className="relative w-full aspect-[4/5] max-w-md lg:max-w-none rounded-3xl overflow-hidden shadow-2xl group max-h-[55vh] lg:max-h-[65vh]">
               <video
                 autoPlay
                 loop

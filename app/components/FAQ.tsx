@@ -3,14 +3,12 @@
 import { useState, useEffect, useRef } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faQuestionCircle,
   faChevronDown
 } from "@fortawesome/free-solid-svg-icons";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 interface FAQItem {
-  id: number;
   question: string;
   answer: string;
 }
@@ -21,37 +19,31 @@ export default function FAQ() {
 
   const faqs: FAQItem[] = [
     {
-      id: 1,
       question: "Apa itu SAGATHA IV?",
       answer:
         "SAGATHA (Saga Thariq) adalah event kompetisi tahunan tingkat pelajar SMP/MTs/Sederajat yang diselenggarakan untuk mengasah serta merayakan talenta di bidang olahraga (Futsal), kebahasaan (Speech), sains (Olimpiade Matematika), seni (Mural & Puisi), dan keagamaan (MHQ).",
     },
     {
-      id: 2,
       question: "Siapa saja yang berhak mendaftar kompetisi SAGATHA IV?",
       answer:
         "Peserta terbuka untuk santri atau peserta didik aktif tingkat SMP/MTs/Sederaja dari berbagai sekolah di seluruh Indonesia khususnya Jawa Barat dan JaBoDeTaBek sesuai dengan kategori syarat yang tercantum di masing-masing cabang lomba.",
     },
     {
-      id: 3,
       question: "Bagaimana cara melakukan pendaftaran dan pembayaran?",
       answer:
         "Pembayaran bisa melihat tampilan menu di atas dengan nama 'Metode Pembayaran' dan tinggal ikuti instruksi di dalamnya. Pendaftaran dilakukan secara langsung online dengan memilih cabang lomba pada website ini, klik 'Detail & Syarat', lalu tekan tombol 'Daftar' dan langsung terhubung dengan google form untuk mengisi pendaftaran lomba, atau bisa klik whatsapp untuk bertanya terlebih dahulu kepada panitia yang berasangkutan.",
     },
     {
-      id: 4,
       question: "Apakah peserta mendapatkan sertifikat dan fasilitas?",
       answer:
         "Ya! Seluruh peserta dan pembimbing resmi yang terdaftar akan mendapatkan e-Sertifikat keikutsertaan berakreditasi event, id card peserta, snackbox/konsumsi, serta kesempatan memenangkan total hadiah uang tunai & piala/medali.",
     },
     {
-      id: 5,
       question: "Dimana lokasi SAGATHA IV Dilaksanaan?",
       answer:
         "Seluruh rangkaian lomba dan final akan dilaksanakan di kampus SMAIT Thariq Bin Ziyad Boarding School. Detail petunjuk arah dan peta lokasi interaktif dapat dilihat pada bagian Footer di bawah.",
     },
     {
-      id: 6,
       question: "Apakah supporter dan keluarga bisa datang menonton?",
       answer:
         "Sangat diperbolehkan! Supporter sekolah, sanak keluarga, dan umum dapat hadir meramaikan tribun penonton namun harus membayar tiket masuk dengan nominal yang di terakan panitia, atau menyaksikan melalui siaran Livestream Youtube kami.",
@@ -107,7 +99,7 @@ export default function FAQ() {
             const isOpen = openIndex === index;
             return (
               <div
-                key={faq.id}
+                key={faq.question}
                 className={`rounded-2xl transition-all duration-300 border ${isOpen
                     ? "border-[#1FB873] bg-[#0d2a2e] shadow-lg"
                     : "border-white/10 bg-[#0d2a2e]/60"
@@ -115,14 +107,11 @@ export default function FAQ() {
               >
                 <button
                   onClick={() => toggleAccordion(index)}
-                  className="w-full p-6 text-left flex items-center justify-between gap-4 focus:outline-none"
+                  aria-expanded={isOpen}
+                  aria-controls={`faq-answer-${index}`}
+                  className="w-full min-h-16 p-4 sm:p-6 text-left flex items-center justify-between gap-4 focus:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-[#1FB873]"
                 >
-                  <span className="text-base sm:text-lg font-bold text-white flex items-center gap-3">
-                    <span className="w-8 h-8 rounded-lg bg-[#136368] border border-white/10 text-[#1FB873] text-xs font-black flex items-center justify-center flex-shrink-0">
-                      0{faq.id}
-                    </span>
-                    {faq.question}
-                  </span>
+                  <span className="text-base sm:text-lg font-bold text-white">{faq.question}</span>
                   <div
                     className={`w-8 h-8 rounded-full bg-[#136368] flex items-center justify-center text-white transition-transform duration-300 ${isOpen ? "rotate-180 bg-[#1FB873] text-[#091c1f]" : ""
                       }`}
@@ -132,7 +121,10 @@ export default function FAQ() {
                 </button>
 
                 {isOpen && (
-                  <div className="px-6 pb-6 pt-0 text-white/80 text-sm sm:text-base leading-relaxed animate-in fade-in slide-in-from-top-2 duration-200">
+                  <div
+                    id={`faq-answer-${index}`}
+                    className="px-4 sm:px-6 pb-6 pt-0 text-white/80 text-sm sm:text-base leading-relaxed animate-in fade-in slide-in-from-top-2 duration-200"
+                  >
                     <div className="border-t border-white/10 pt-4 mt-1 text-white/90">
                       {faq.answer}
                     </div>

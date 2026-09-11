@@ -36,6 +36,17 @@ export default function Navbar() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  useEffect(() => {
+    const handleKeyDown = (event: KeyboardEvent) => {
+      if (event.key === "Escape") {
+        setIsOpen(false);
+      }
+    };
+
+    window.addEventListener("keydown", handleKeyDown);
+    return () => window.removeEventListener("keydown", handleKeyDown);
+  }, []);
+
   const navLinks = [
     { name: "Beranda", href: "#hero" },
     { name: "Tentang SAGATHA", href: "#about" },
@@ -55,8 +66,10 @@ export default function Navbar() {
           <div className="flex items-center gap-x-4 lg:gap-x-8">
             <button
               onClick={() => setIsOpen(!isOpen)}
-              aria-label="Open Navigation Menu"
-              className="group relative cursor-pointer focus:outline-none p-1"
+              aria-label={isOpen ? "Close Navigation Menu" : "Open Navigation Menu"}
+              aria-expanded={isOpen}
+              aria-controls="mobile-navigation"
+              className="group relative flex h-11 w-11 cursor-pointer items-center justify-center focus:outline-none focus-visible:ring-2 focus-visible:ring-[#1FB873]"
             >
               {/* Normal State Icon */}
               <svg
@@ -130,7 +143,10 @@ export default function Navbar() {
 
       {/* Slide-over Navigation Menu Overlay */}
       {isOpen && (
-        <div className="fixed inset-0 z-[70] bg-[#091c1f]/95 backdrop-blur-xl animate-in fade-in duration-300 flex flex-col justify-between p-6 sm:p-12">
+        <div
+          id="mobile-navigation"
+          className="fixed inset-0 z-[70] bg-[#091c1f]/95 backdrop-blur-xl animate-in fade-in duration-300 flex flex-col justify-between p-6 sm:p-12"
+        >
           <div className="flex items-center justify-between border-b border-white/10 pb-6">
             <div className="flex items-center gap-3">
               <Image

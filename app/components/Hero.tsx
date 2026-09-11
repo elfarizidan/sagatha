@@ -89,7 +89,7 @@ export default function Hero() {
 
   return (
     <section
-      id="Hero"
+      id="hero"
       ref={heroRef}
       className="relative min-h-screen flex items-center justify-center pt-36 sm:pt-44 md:pt-48 pb-20 overflow-hidden bg-[#248999]"
     >
