@@ -22,39 +22,39 @@ export default function FAQ() {
   const faqs: FAQItem[] = [
     {
       id: 1,
-      question: "Apa itu SAGATHA 2026?",
+      question: "Apa itu SAGATHA IV?",
       answer:
-        "SAGATHA (Semarak Artefak & Gelar Talenta) adalah event kompetisi tahunan tingkat pelajar yang diselenggarakan untuk mengasah serta merayakan talenta di bidang olahraga (Futsal), kebahasaan (Speech), sains (Olimpiade Matematika), dan keagamaan (MHQ).",
+        "SAGATHA (Saga Thariq) adalah event kompetisi tahunan tingkat pelajar SMP/MTs/Sederajat yang diselenggarakan untuk mengasah serta merayakan talenta di bidang olahraga (Futsal), kebahasaan (Speech), sains (Olimpiade Matematika), seni (Mural & Puisi), dan keagamaan (MHQ).",
     },
     {
       id: 2,
-      question: "Siapa saja yang berhak mendaftar kompetisi SAGATHA?",
+      question: "Siapa saja yang berhak mendaftar kompetisi SAGATHA IV?",
       answer:
-        "Peserta terbuka untuk siswa-siswi tingkat SMP/MTs, SMA/MA/SMK sederajat dari berbagai sekolah di seluruh Indonesia sesuai dengan kategori syarat yang tercantum di masing-masing cabang lomba.",
+        "Peserta terbuka untuk santri atau peserta didik aktif tingkat SMP/MTs/Sederaja dari berbagai sekolah di seluruh Indonesia khususnya Jawa Barat dan JaBoDeTaBek sesuai dengan kategori syarat yang tercantum di masing-masing cabang lomba.",
     },
     {
       id: 3,
       question: "Bagaimana cara melakukan pendaftaran dan pembayaran?",
       answer:
-        "Pendaftaran dilakukan secara langsung online dengan memilih cabang lomba pada website ini, klik 'Detail & Syarat', lalu tekan tombol 'Daftar via WhatsApp' untuk langsung terhubung dengan panitia cabang lomba terkait.",
+        "Pembayaran bisa melihat tampilan menu di atas dengan nama 'Metode Pembayaran' dan tinggal ikuti instruksi di dalamnya. Pendaftaran dilakukan secara langsung online dengan memilih cabang lomba pada website ini, klik 'Detail & Syarat', lalu tekan tombol 'Daftar' dan langsung terhubung dengan google form untuk mengisi pendaftaran lomba, atau bisa klik whatsapp untuk bertanya terlebih dahulu kepada panitia yang berasangkutan.",
     },
     {
       id: 4,
       question: "Apakah peserta mendapatkan sertifikat dan fasilitas?",
       answer:
-        "Ya! Seluruh peserta resmi akan mendapatkan e-Sertifikat keikutsertaan berakreditasi event, id card peserta, snack/konsumsi (untuk babak offline), serta kesempatan memenangkan total hadiah uang tunai & trofi.",
+        "Ya! Seluruh peserta dan pembimbing resmi yang terdaftar akan mendapatkan e-Sertifikat keikutsertaan berakreditasi event, id card peserta, snackbox/konsumsi, serta kesempatan memenangkan total hadiah uang tunai & piala/medali.",
     },
     {
       id: 5,
-      question: "Dimana lokasi venue pelaksanaan pertandingan?",
+      question: "Dimana lokasi SAGATHA IV Dilaksanaan?",
       answer:
-        "Seluruh rangkaian lomba utama dan grand final akan dilaksanakan di Kompleks Kampus & Sports Center SAGATHA. Detail petunjuk arah dan peta lokasi interaktif dapat dilihat pada bagian Footer di bawah.",
+        "Seluruh rangkaian lomba dan final akan dilaksanakan di kampus SMAIT Thariq Bin Ziyad Boarding School. Detail petunjuk arah dan peta lokasi interaktif dapat dilihat pada bagian Footer di bawah.",
     },
     {
       id: 6,
-      question: "Apakah supporter dan orang tua bisa datang menonton?",
+      question: "Apakah supporter dan keluarga bisa datang menonton?",
       answer:
-        "Sangat diperbolehkan! Supporter sekolah, sanak keluarga, dan umum dapat hadir meramaikan tribun penonton atau menyaksikan melalui siaran Livestream Youtube kami.",
+        "Sangat diperbolehkan! Supporter sekolah, sanak keluarga, dan umum dapat hadir meramaikan tribun penonton namun harus membayar tiket masuk dengan nominal yang di terakan panitia, atau menyaksikan melalui siaran Livestream Youtube kami.",
     },
   ];
 
@@ -97,7 +97,7 @@ export default function FAQ() {
             Frequently Asked <span className="text-[#1FB873]">Questions</span>
           </h2>
           <p className="mt-4 text-base text-white/80">
-            Temukan jawaban atas pertanyaan yang paling sering diajukan seputar event SAGATHA 2026.
+            Temukan jawaban atas pertanyaan yang paling sering diajukan seputar event SAGATHA.
           </p>
         </div>
 

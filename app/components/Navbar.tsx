@@ -47,9 +47,8 @@ export default function Navbar() {
   return (
     <>
       <header
-        className={`flex justify-between w-full fixed top-0 z-[60] transition-all duration-500 h-[60px] md:h-[72px] ${
-          scrolled ? "bg-[#091c1f] shadow-2xl" : "bg-transparent"
-        }`}
+        className={`flex justify-between w-full fixed top-0 z-[60] transition-all duration-500 h-[60px] md:h-[72px] ${scrolled ? "bg-[#091c1f] shadow-2xl" : "bg-transparent"
+          }`}
       >
         <div className="w-full px-4 lg:px-[60px] flex items-center justify-between py-2 md:py-4 lg:py-5">
           {/* Left Side: Animated Hamburger & Brand Logos */}
