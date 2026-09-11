@@ -93,10 +93,6 @@ export default function FAQ() {
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         {/* Header */}
         <div className="text-center max-w-2xl mx-auto mb-16">
-          <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-[#0d2a2e] border border-[#1FB873] text-[#1FB873] text-xs font-bold uppercase tracking-widest mb-4">
-            <FontAwesomeIcon icon={faQuestionCircle} className="text-[#1FB873]" />
-            <span>PERTANYAAN POPULER</span>
-          </div>
           <h2 className="text-3xl sm:text-5xl font-black text-white tracking-tight">
             Frequently Asked <span className="text-[#1FB873]">Questions</span>
           </h2>
@@ -150,7 +146,7 @@ export default function FAQ() {
         {/* Additional Help Callout */}
         <div className="mt-12 text-center p-6 rounded-2xl bg-[#0d2a2e] border border-[#1FB873]/30">
           <p className="text-sm text-white/80">
-            Punya pertanyaan lain yang belum terjawab? Kontak langsung CS Helpdesk kami melalui WhatsApp!
+            Punya pertanyaan lain yang belum terjawab? Hubungi langsung bantuan kami melalui WhatsApp!
           </p>
           <a
             href="https://wa.me/6281234567890?text=Halo%20Admin%20SAGATHA,%20saya%20punya%20pertanyaan"
@@ -158,7 +154,7 @@ export default function FAQ() {
             rel="noopener noreferrer"
             className="btn-fun-primary inline-flex items-center gap-2 mt-4 text-xs sm:text-sm py-2.5 px-6"
           >
-            <span>Hubungi Helpdesk</span>
+            <span>Hubungi Bantuan</span>
           </a>
         </div>
       </div>

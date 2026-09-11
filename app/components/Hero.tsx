@@ -1,7 +1,6 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faTrophy,
@@ -94,15 +93,17 @@ export default function Hero() {
       ref={heroRef}
       className="relative min-h-screen flex items-center justify-center pt-36 sm:pt-44 md:pt-48 pb-20 overflow-hidden bg-[#248999]"
     >
-      {/* Full-bleed Background Image from public/content */}
-      <div className="absolute inset-0 z-0">
-        <Image
-          src="/content/hero-bg.png"
-          alt="SAGATHA Event Background"
-          fill
-          priority
-          className="object-cover object-center"
-        />
+      {/* Full-bleed Background Looping Video from public/content */}
+      <div className="absolute inset-0 z-0 overflow-hidden">
+        <video
+          autoPlay
+          loop
+          muted
+          playsInline
+          className="w-full h-full object-cover object-center"
+        >
+          <source src="/content/Hero.mp4" type="video/mp4"/>
+        </video>
       </div>
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center flex flex-col items-center justify-center my-auto w-full">
@@ -114,91 +115,60 @@ export default function Hero() {
           <span className="text-[#ffffff] block text-center">SAGATHA 2026</span>
         </h1>
 
-        {/* Tagline */}
-        <p
-          ref={subtitleRef}
-          className="mt-6 text-lg sm:text-2xl text-white max-w-3xl font-medium leading-relaxed"
-        >
-          Ajang kompetisi siswa SMP bergengsi yang sudah berjalan dari tahun 2023. Dibuka untuk seluruh siswa SMP
-        </p>
 
-        {/* Countdown Timer Display */}
-        <div className="mt-8 grid grid-cols-4 gap-3 sm:gap-6 bg-[#136368] p-4 sm:p-6 rounded-2xl border border-[#1FB873]/50 shadow-2xl">
-          <div className="flex flex-col items-center min-w-[60px] sm:min-w-[80px]">
-            <span className="text-2xl sm:text-4xl font-black text-[#1FB873]">{timeLeft.days}</span>
-            <span className="text-[10px] sm:text-xs text-white uppercase tracking-widest font-semibold mt-1">Hari</span>
+        {/* Animated Rolling Slot Countdown Display (Without Background) */}
+        <div className="mt-8 sm:mt-12 flex items-center justify-center gap-2 sm:gap-4 md:gap-6 bg-transparent py-2 px-2 sm:px-6">
+          <TimePart value={timeLeft.days} colorClass="text-[#1FB873]" />
+          <div className="text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-black text-white/40 select-none">
+            :
           </div>
-          <div className="flex flex-col items-center min-w-[60px] sm:min-w-[80px]">
-            <span className="text-2xl sm:text-4xl font-black text-white">{timeLeft.hours}</span>
-            <span className="text-[10px] sm:text-xs text-white uppercase tracking-widest font-semibold mt-1">Jam</span>
+          <TimePart value={timeLeft.hours} colorClass="text-white" />
+          <div className="text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-black text-white/40 select-none">
+            :
           </div>
-          <div className="flex flex-col items-center min-w-[60px] sm:min-w-[80px]">
-            <span className="text-2xl sm:text-4xl font-black text-[#1FB873]">{timeLeft.minutes}</span>
-            <span className="text-[10px] sm:text-xs text-white uppercase tracking-widest font-semibold mt-1">Menit</span>
+          <TimePart value={timeLeft.minutes} colorClass="text-[#1FB873]" />
+          <div className="text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-black text-white/40 select-none">
+            :
           </div>
-          <div className="flex flex-col items-center min-w-[60px] sm:min-w-[80px]">
-            <span className="text-2xl sm:text-4xl font-black text-white">{timeLeft.seconds}</span>
-            <span className="text-[10px] sm:text-xs text-white uppercase tracking-widest font-semibold mt-1">Detik</span>
-          </div>
+          <TimePart value={timeLeft.seconds} colorClass="text-white" />
         </div>
-
-        {/* Action Buttons */}
-        <div
-          ref={ctaRef}
-          className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4 w-full sm:w-auto"
-        >
-          <a
-            href="#lomba"
-            className="btn-fun-primary w-full sm:w-auto text-base sm:text-lg flex items-center justify-center gap-3 py-4 px-8"
-          >
-            <FontAwesomeIcon icon={faTrophy} className="text-white" />
-            <span>Lihat Cabang Lomba</span>
-          </a>
-          <a
-            href="#livestream"
-            className="btn-fun-secondary w-full sm:w-auto text-base sm:text-lg flex items-center justify-center gap-3 py-4 px-8"
-          >
-            <FontAwesomeIcon icon={faTv} className="text-[#1FB873]" />
-            <span>Tonton Livestream</span>
-          </a>
-        </div>
-
-        {/* Stats Counter Bar */}
-        <div
-          ref={statsRef}
-          className="mt-14 w-full max-w-4xl grid grid-cols-2 md:grid-cols-4 gap-4 p-4 sm:p-6 rounded-2xl bg-[#136368] border border-[#1FB873]/30"
-        >
-          <div className="flex flex-col items-center p-3">
-            <FontAwesomeIcon icon={faMedal} className="text-[#1FB873] text-2xl mb-2" />
-            <span className="text-2xl sm:text-3xl font-black text-white">Rp 25.000.000+</span>
-            <span className="text-xs text-white/90 font-medium">Total Hadiah</span>
-          </div>
-          <div className="flex flex-col items-center p-3 border-l border-white/20">
-            <FontAwesomeIcon icon={faTrophy} className="text-[#1FB873] text-2xl mb-2" />
-            <span className="text-2xl sm:text-3xl font-black text-white">4 Lomba Utama</span>
-            <span className="text-xs text-white/90 font-medium">Futsal, Speech, Olim, MHQ</span>
-          </div>
-          <div className="flex flex-col items-center p-3 border-l border-white/20">
-            <FontAwesomeIcon icon={faUsers} className="text-[#1FB873] text-2xl mb-2" />
-            <span className="text-2xl sm:text-3xl font-black text-white">500+</span>
-            <span className="text-xs text-white/90 font-medium">Target Peserta</span>
-          </div>
-          <div className="flex flex-col items-center p-3 border-l border-white/20">
-            <FontAwesomeIcon icon={faCalendarAlt} className="text-[#1FB873] text-2xl mb-2" />
-            <span className="text-2xl sm:text-3xl font-black text-white">14-16 NOV 2026</span>
-            <span className="text-xs text-white/90 font-medium">Tanggal Event</span>
-          </div>
-        </div>
-
-        {/* Scroll Indicator */}
-        <a
-          href="#about"
-          className="mt-12 text-[#1FB873] hover:text-white transition flex flex-col items-center gap-2 animate-bounce"
-        >
-          <span className="text-xs font-semibold uppercase tracking-widest text-white">Scroll Kebawah</span>
-          <FontAwesomeIcon icon={faChevronDown} />
-        </a>
       </div>
     </section>
+  );
+}
+
+/* Helper Component for Rolling Digit Slot Animation */
+function DigitSlot({ digit, colorClass = "text-[#1FB873]" }: { digit: number; colorClass?: string }) {
+  const digits = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
+  return (
+    <div className="h-12 sm:h-16 md:h-20 lg:h-24 overflow-hidden relative inline-block select-none">
+      <div
+        className="transition-transform duration-500 ease-[cubic-bezier(0.85,0,0.15,1)] flex flex-col items-center"
+        style={{ transform: `translateY(-${digit * 10}%)` }}
+      >
+        {digits.map((num) => (
+          <div
+            key={num}
+            className={`h-12 sm:h-16 md:h-20 lg:h-24 flex items-center justify-center font-black ${colorClass} text-3xl sm:text-5xl md:text-6xl lg:text-7xl leading-none px-0.5 sm:px-1`}
+          >
+            {num}
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
+
+/* Helper Component for Each Time Part (Days, Hours, Minutes, Seconds) */
+function TimePart({ value, colorClass = "text-white" }: { value: number; colorClass?: string }) {
+  const padded = String(Math.max(0, value)).padStart(2, "0");
+  const digitChars = padded.split("");
+
+  return (
+    <div className="flex items-center justify-center">
+      {digitChars.map((ch, idx) => (
+        <DigitSlot key={idx} digit={parseInt(ch, 10) || 0} colorClass={colorClass} />
+      ))}
+    </div>
   );
 }

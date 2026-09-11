@@ -1,11 +1,11 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faBars,
-  faTimes,
-  faArrowRight
+  faArrowRight,
+  faTimes
 } from "@fortawesome/free-solid-svg-icons";
 
 export default function Navbar() {
@@ -14,108 +14,177 @@ export default function Navbar() {
 
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > 40) {
-        setScrolled(true);
+      const aboutEl = document.getElementById("about");
+      if (aboutEl) {
+        const aboutOffset = aboutEl.offsetTop - 100;
+        if (window.scrollY >= aboutOffset) {
+          setScrolled(true);
+        } else {
+          setScrolled(false);
+        }
       } else {
-        setScrolled(false);
+        if (window.scrollY > window.innerHeight * 0.8) {
+          setScrolled(true);
+        } else {
+          setScrolled(false);
+        }
       }
     };
 
+    handleScroll();
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
   const navLinks = [
-    { name: "Hero", href: "#hero" },
-    { name: "About", href: "#about" },
-    { name: "List Lomba", href: "#lomba" },
-    { name: "Livestream", href: "#livestream" },
-    { name: "Galeri", href: "#galeri" },
-    { name: "FAQ", href: "#faq" },
+    { name: "Beranda", href: "#hero" },
+    { name: "Tentang SAGATHA", href: "#about" },
+    { name: "Cabang Lomba", href: "#lomba" },
+    { name: "Galeri Lomba", href: "#galeri" },
+    { name: "Pertanyaan (FAQ)", href: "#faq" },
   ];
 
   return (
-    <header
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled ? "glass-nav py-3 shadow-2xl" : "bg-[#091c1f]/90 py-5 border-b border-white/10"
+    <>
+      <header
+        className={`flex justify-between w-full fixed top-0 z-[60] transition-all duration-500 h-[60px] md:h-[72px] ${
+          scrolled ? "bg-[#091c1f] shadow-2xl" : "bg-transparent"
         }`}
-    >
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between">
-          {/* Brand Logo */}
-          <a
-            href="#hero"
-            className="flex items-center gap-3 group focus:outline-none"
-          >
-            <div className="flex flex-col">
-              <span className="text-2xl font-black tracking-wider text-white flex items-center gap-1.5">
-                SAGATHA<span className="text-[#1FB873] text-sm font-extrabold px-2 py-0.5 rounded bg-[#136368] border border-[#248999]">2026</span>
-              </span>
-              <span className="text-[10px] text-[#248999] uppercase font-semibold tracking-widest -mt-0.5">
-                Youth Competition Event
-              </span>
-            </div>
-          </a>
-
-          {/* Desktop Navigation */}
-          <nav className="hidden md:flex items-center gap-1 bg-[#0d2a2e] p-1.5 rounded-full border border-white/10">
-            {navLinks.map((link) => (
-              <a
-                key={link.name}
-                href={link.href}
-                className="px-4 py-2 text-sm font-semibold text-white hover:text-[#1FB873] hover:bg-[#136368] rounded-full transition-all"
-              >
-                {link.name}
-              </a>
-            ))}
-          </nav>
-
-          {/* CTA Button - Retains FontAwesome icon */}
-          <div className="hidden md:block">
-            <a
-              href="#lomba"
-              className="btn-fun-primary text-sm flex items-center gap-2"
+      >
+        <div className="w-full px-4 lg:px-[60px] flex items-center justify-between py-2 md:py-4 lg:py-5">
+          {/* Left Side: Animated Hamburger & Brand Logos */}
+          <div className="flex items-center gap-x-4 lg:gap-x-8">
+            <button
+              onClick={() => setIsOpen(!isOpen)}
+              aria-label="Open Navigation Menu"
+              className="group relative cursor-pointer focus:outline-none p-1"
             >
-              <span>Daftar Sekarang</span>
-              <FontAwesomeIcon icon={faArrowRight} className="text-xs" />
+              {/* Normal State Icon */}
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 120 120"
+                className="text-white lg:w-6 lg:h-6 w-[28px] h-[28px] cursor-pointer group-hover:opacity-0 transition-opacity duration-300"
+              >
+                <path
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="6"
+                  d="M20 60h80M20 40h80M20 80h40"
+                />
+              </svg>
+
+              {/* Group Hover State Icon */}
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 120 120"
+                className="text-[#1FB873] lg:w-6 lg:h-6 w-[28px] h-[28px] cursor-pointer opacity-0 group-hover:opacity-100 transition-opacity duration-300 absolute top-1 left-1"
+              >
+                <path
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="6"
+                  d="M20 60h80M20 40h40M20 80h60"
+                />
+              </svg>
+            </button>
+
+            {/* Brand Logos (logo1.png & logo2.PNG) */}
+            <a
+              href="#hero"
+              className="cursor-pointer inline-flex items-center gap-2 lg:gap-3 absolute lg:static left-1/2 lg:left-0 -translate-x-1/2 lg:translate-x-0 top-1/2 lg:top-0 -translate-y-1/2 lg:translate-y-0"
+            >
+              <Image
+                src="/content/logo1.png"
+                alt="Logo SAGATHA 1"
+                width={44}
+                height={44}
+                className="h-9 w-9 lg:h-11 lg:w-11 object-contain"
+                priority
+              />
+              <Image
+                src="/content/logo2.PNG"
+                alt="Logo SAGATHA 2"
+                width={44}
+                height={44}
+                className="h-9 w-9 lg:h-11 lg:w-11 object-contain"
+                priority
+              />
             </a>
           </div>
 
-          {/* Mobile Menu Toggle Button */}
-          <button
-            onClick={() => setIsOpen(!isOpen)}
-            aria-label="Toggle Navigation Menu"
-            className="md:hidden p-2.5 rounded-xl bg-[#0d2a2e] border border-white/10 text-white hover:bg-[#136368] transition"
-          >
-            <FontAwesomeIcon icon={isOpen ? faTimes : faBars} className="text-lg w-5 h-5" />
-          </button>
+          {/* Right Side: CTA Button */}
+          <div className="flex items-center gap-x-3 lg:gap-x-4">
+            <a
+              href="#lomba"
+              className="inline-flex items-center justify-center whitespace-nowrap rounded-full font-bold transition-all duration-300 bg-[#0D816A] border border-[#1FB873] text-white hover:bg-[#1FB873] hover:text-[#091c1f] uppercase px-4 lg:px-6 py-1.5 lg:py-2 text-xs lg:text-sm shadow-lg gap-2"
+            >
+              <span>Daftar</span>
+              <FontAwesomeIcon icon={faArrowRight} className="text-xs" />
+            </a>
+          </div>
         </div>
-      </div>
+      </header>
 
-      {/* Mobile Navigation Drawer */}
+      {/* Slide-over Navigation Menu Overlay */}
       {isOpen && (
-        <div className="md:hidden fixed inset-x-0 top-[72px] bg-[#091c1f] border-b border-[#0D816A] p-5 shadow-2xl transition-all">
-          <div className="flex flex-col gap-2">
-            {navLinks.map((link) => (
+        <div className="fixed inset-0 z-[70] bg-[#091c1f]/95 backdrop-blur-xl animate-in fade-in duration-300 flex flex-col justify-between p-6 sm:p-12">
+          <div className="flex items-center justify-between border-b border-white/10 pb-6">
+            <div className="flex items-center gap-3">
+              <Image
+                src="/content/logo1.png"
+                alt="Logo 1"
+                width={36}
+                height={36}
+                className="h-9 w-9 object-contain"
+              />
+              <Image
+                src="/content/logo2.PNG"
+                alt="Logo 2"
+                width={36}
+                height={36}
+                className="h-9 w-9 object-contain"
+              />
+            </div>
+            <button
+              onClick={() => setIsOpen(false)}
+              className="w-12 h-12 rounded-full bg-[#136368] text-white hover:bg-[#1FB873] hover:text-[#091c1f] flex items-center justify-center transition"
+            >
+              <FontAwesomeIcon icon={faTimes} className="text-xl" />
+            </button>
+          </div>
+
+          <div className="flex flex-col gap-6 my-auto max-w-xl">
+            {navLinks.map((link, idx) => (
               <a
                 key={link.name}
                 href={link.href}
                 onClick={() => setIsOpen(false)}
-                className="px-4 py-3 text-base font-semibold text-white hover:bg-[#136368] rounded-xl transition"
+                className="text-2xl sm:text-4xl font-extrabold text-white/90 hover:text-[#1FB873] transition-all flex items-center justify-between group"
               >
-                {link.name}
+                <span>{link.name}</span>
+                <span className="text-xs font-mono text-[#248999] group-hover:text-[#1FB873]">
+                  0{idx + 1}
+                </span>
               </a>
             ))}
+          </div>
+
+          <div className="pt-6 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-white/70">
+            <span>&copy; 2026 SAGATHA. Semarak Artefak &amp; Gelar Talenta.</span>
             <a
               href="#lomba"
               onClick={() => setIsOpen(false)}
-              className="btn-fun-primary mt-3 text-center flex items-center justify-center gap-2 py-3"
+              className="btn-fun-primary px-6 py-2.5 text-xs text-center w-full sm:w-auto"
             >
-              <span>Daftar Sekarang</span>
-              <FontAwesomeIcon icon={faArrowRight} />
+              Pilih Cabang Lomba
             </a>
           </div>
         </div>
       )}
-    </header>
+    </>
   );
 }

@@ -64,10 +64,6 @@ export default function Livestream() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         {/* Header */}
         <div className="text-center max-w-3xl mx-auto">
-          <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-[#0d2a2e] border border-[#1FB873] text-[#1FB873] text-xs font-bold uppercase tracking-widest mb-4">
-            <FontAwesomeIcon icon={faCircle} className="text-[#1FB873] text-[10px] animate-ping" />
-            <span>SIARAN LANGSUNG</span>
-          </div>
           <h2 className="text-3xl sm:text-5xl font-black text-white tracking-tight">
             Livestream Stage <span className="text-[#1FB873]">SAGATHA 2026</span>
           </h2>

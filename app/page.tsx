@@ -23,7 +23,7 @@ export default function Home() {
       <ListLomba />
 
       {/* 4. Livestream */}
-      <Livestream />
+      {/* <Livestream /> */}
 
       {/* 5. Galeri */}
       <Galeri />
