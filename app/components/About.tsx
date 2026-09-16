@@ -88,7 +88,7 @@ export default function About() {
             </span>
 
             <h2 className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-black text-white tracking-tight leading-tight mb-4 sm:mb-6">
-              Wadah Prestasi &amp; Gelar Talenta Generasi Muda.
+              Wadah Prestasi; Talenta Generasi Muda.
             </h2>
 
             <p className="text-sm sm:text-base lg:text-lg text-white/90 leading-relaxed max-w-2xl mb-6 sm:mb-10">
