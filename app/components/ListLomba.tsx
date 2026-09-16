@@ -168,7 +168,7 @@ export default function ListLomba() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 w-full">
         <div className="mb-8 sm:mb-12">
           <h2 className="text-3xl sm:text-5xl font-black text-white tracking-tight relative pb-4 uppercase">
-            List Lomba <span className="text-[#1FB873]">SAGATHA 2026</span>
+            List Lomba <span className="text-[#1FB873]">SAGATHA IV</span>
           </h2>
         </div>
         <div
