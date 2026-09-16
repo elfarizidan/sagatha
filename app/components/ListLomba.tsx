@@ -310,7 +310,7 @@ export default function ListLomba() {
                 <FontAwesomeIcon icon={faExternalLinkAlt} className="text-xs opacity-70" />
               </a>
               <a
-                href={`https://wa.me/${selectedLomba.whatsappNumber}?text=Halo%20Panitia%20SAGATHA,%20saya%20ingin%20mendaftar%20Lomba%20${encodeURIComponent(
+                href={`${selectedLomba.whatsappNumber}${encodeURIComponent(
                   selectedLomba.title
                 )}`}
                 target="_blank"
