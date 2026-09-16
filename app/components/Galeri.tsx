@@ -106,7 +106,7 @@ export default function Galeri() {
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-4 border-b border-white/20 pb-6">
           <div>
             <h2 className="text-3xl sm:text-5xl font-black text-white tracking-tight uppercase">
-              Album <span className="text-[#1FB873]">SAGATHA 2026</span>
+              Album <span className="text-[#1FB873]">SAGATHA III 2025</span>
             </h2>
           </div>
           <p className="text-sm sm:text-base text-white/90 max-w-md">
@@ -149,7 +149,7 @@ export default function Galeri() {
 
           {/* Dedicated Google Drive Extra Card at the end of track */}
           <a
-            href={GOOGLE_DRIVE_GALLERY_LINK}
+            href={https://drive.google.com/drive/folders/1UWCDAUUn56eLWGXhoMo-fLIsqSsgcSnW}
             target="_blank"
             rel="noopener noreferrer"
             className="relative w-[280px] sm:w-[360px] h-[360px] sm:h-[440px] rounded-3xl overflow-hidden bg-[#0D816A] hover:bg-[#1FB873] transition-colors duration-500 group cursor-pointer flex-shrink-0 flex flex-col justify-between p-8 text-white hover:text-[#091c1f]"
