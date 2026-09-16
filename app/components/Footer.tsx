@@ -112,7 +112,7 @@ export default function Footer() {
                 >
                   <FontAwesomeIcon icon={faWhatsapp} className="text-xl text-[#1FB873]" />
                   <span className="text-xs font-semibold whitespace-nowrap">+62 85659513039</span>
-                </a><br>
+                </a>
 
                 <a
                   href="mailto:bestsmaittbzbs@gmail.com"
@@ -132,7 +132,7 @@ export default function Footer() {
                 >
                   <FontAwesomeIcon icon={faEnvelope} className="text-xl text-[#1FB873]" />
                   <span className="text-xs font-semibold whitespace-nowrap">smaitthariqboarding@gmail.com</span>
-                </a></br>
+                </a>
               </div>
             </div>
           </div>
