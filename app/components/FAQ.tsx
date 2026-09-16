@@ -141,7 +141,7 @@ export default function FAQ() {
             Punya pertanyaan lain yang belum terjawab? Hubungi langsung bantuan kami melalui WhatsApp!
           </p>
           <a
-            href="https://wa.me/6281234567890?text=Halo%20Admin%20SAGATHA,%20saya%20punya%20pertanyaan"
+            href="https://wa.me/6285228761864?text=Halo%20Admin%20SAGATHA,%20saya%20punya%20pertanyaan"
             target="_blank"
             rel="noopener noreferrer"
             className="btn-fun-primary inline-flex items-center gap-2 mt-4 text-xs sm:text-sm py-2.5 px-6"
