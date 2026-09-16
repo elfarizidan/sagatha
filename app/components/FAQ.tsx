@@ -21,7 +21,7 @@ export default function FAQ() {
     {
       question: "Apa itu SAGATHA IV?",
       answer:
-        "SAGATHA (Saga Thariq) adalah event kompetisi tahunan tingkat pelajar SMP/MTs/Sederajat yang diselenggarakan untuk mengasah serta merayakan talenta di bidang olahraga (Futsal), kebahasaan (Speech), sains (Olimpiade Matematika), seni (Mural & Puisi), dan keagamaan (MHQ).",
+        "SAGATHA (Saga Thariq) adalah event kompetisi tahunan tingkat pelajar SMP/MTs/Sederajat yang diselenggarakan untuk mengasah serta merayakan talenta di bidang olahraga (Futsal), kebahasaan (Speech & Debat), sains (Olimpiade Matematika), seni (Mural & Puisi), dan keagamaan (MHQ).",
     },
     {
       question: "Siapa saja yang berhak mendaftar kompetisi SAGATHA IV?",
@@ -36,7 +36,7 @@ export default function FAQ() {
     {
       question: "Apakah peserta mendapatkan sertifikat dan fasilitas?",
       answer:
-        "Ya! Seluruh peserta dan pembimbing resmi yang terdaftar akan mendapatkan e-Sertifikat keikutsertaan berakreditasi event, id card peserta, snackbox/konsumsi, serta kesempatan memenangkan total hadiah uang tunai & piala/medali.",
+        "Ya! Seluruh peserta, pembimbing, dan Tenant Bazzar resmi yang terdaftar akan mendapatkan e-Sertifikat keikutsertaan berakreditasi, id card peserta, snackbox/konsumsi, serta kesempatan memenangkan total hadiah uang tunai & piala/medali.",
     },
     {
       question: "Dimana lokasi SAGATHA IV Dilaksanaan?",
