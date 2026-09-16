@@ -67,9 +67,15 @@ export default function Galeri() {
     },
    {
       id: 7,
-      src: "/content/IMG_0291.PNG",
-      title: "Puisi yang Membara",
+      src: "/content/IMG_3527.heif",
+      title: "Puisi",
       desc: "Penghayatan Peserta dalam membacakan puisi, Membuat suasana yang menarik.",
+    },
+    {
+      id: 8,
+      src: "/content/IMG_3527.heif",
+      title: "Speech",
+      desc: "Pidato bahasa Inggris peserta yang menagajak kebaikan dan kebenaran.",
     },
   ];
 
