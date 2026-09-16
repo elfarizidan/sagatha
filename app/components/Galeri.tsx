@@ -55,7 +55,7 @@ export default function Galeri() {
     },
     {
       id: 5,
-      src: "/content/gallery-5.png",
+      src: "/content/IMG_0287.PNG",
       title: "Olimpiade Matematika",
       desc: "Fokus mendalam para peserta saat memecahkan tantangan nalar sains.",
     },
