@@ -149,7 +149,7 @@ export default function Galeri() {
 
           {/* Dedicated Google Drive Extra Card at the end of track */}
           <a
-            href={https://drive.google.com/drive/folders/1UWCDAUUn56eLWGXhoMo-fLIsqSsgcSnW}
+            href="https://drive.google.com/drive/folders/1UWCDAUUn56eLWGXhoMo-fLIsqSsgcSnW"
             target="_blank"
             rel="noopener noreferrer"
             className="relative w-[280px] sm:w-[360px] h-[360px] sm:h-[440px] rounded-3xl overflow-hidden bg-[#0D816A] hover:bg-[#1FB873] transition-colors duration-500 group cursor-pointer flex-shrink-0 flex flex-col justify-between p-8 text-white hover:text-[#091c1f]"
