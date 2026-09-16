@@ -31,7 +31,7 @@ export default function Galeri() {
   const galleryItems: GalleryItem[] = [
     {
       id: 1,
-      src: "/content/gallery-1.jpg",
+      src: "/content/IMG_9784.jpg",
       title: "Semarak Panitia",
       desc: "Semangatnya panitia SAGATHA dalam menyelenggarakan dan menyambut seluruh peserta.",
     },
