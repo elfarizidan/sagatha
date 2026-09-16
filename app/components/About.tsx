@@ -53,9 +53,9 @@ export default function About() {
   }, []);
 
   const stats = [
-    { value: "4 +", label: "Cabang Lomba" },
+    { value: "7", label: "Cabang Lomba" },
     { value: "500 +", label: "Peserta Pelajar" },
-    { value: "Rp.10JT", label: "Total Hadiah" },
+    { value: "Rp.30JT", label: "Total Hadiah" },
   ];
 
   return (
