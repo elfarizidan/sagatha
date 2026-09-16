@@ -52,7 +52,7 @@ export default function Footer() {
             </div>
 
             <p className="mt-4 text-xs sm:text-sm text-white leading-relaxed">
-              Semarak Artefak &amp; Gelar Talenta — Ajang kejuaraan pelajar bergengsi menghadirkan kompetisi Futsal, Speech, Olimpiade Matematika, dan MHQ.
+              Saga Thariq 4 — Ajang kejuaraan pelajar bergengsi menghadirkan kompetisi Futsal, Speech, Olimpiade Matematika, MHQ, Puisi, Mural, dan Debat.
             </p>
 
             {/* Social Media Links & Contact Badges Side-by-Side */}
@@ -103,7 +103,7 @@ export default function Footer() {
                 </a>
 
                 <a
-                  href="mailto:info@sagatha-event.id"
+                  href="mailto:bestsmaittbzbs@gmail.com"
                   aria-label="Kirim email ke SAGATHA"
                   title="Email SAGATHA"
                   className="inline-flex items-center gap-2 text-white transition hover:text-[#1FB873] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#1FB873]"
