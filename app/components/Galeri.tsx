@@ -49,7 +49,7 @@ export default function Galeri() {
     },
     {
       id: 4,
-      src: "/content/IMG_0291.PNG",
+      src: "/content/IMG_0295.PNG",
       title: "Kemeriahan Bazzar Sagatha III",
       desc: "Ramainya Bazzar tenant UMKM, mendukung semangat peserta dan tim.",
     },
