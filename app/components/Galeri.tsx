@@ -61,7 +61,7 @@ export default function Galeri() {
     },
     {
       id: 6,
-      src: "/content/gallery-6.png",
+      src: "/content/IMG_0290.PNG",
       title: "Musabaqah Hifzhil Qur'an",
       desc: "Lantunan ayat suci Al-Qur'an nan merdu merengkuh kedamaian di panggung MHQ.",
     },
