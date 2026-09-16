@@ -67,7 +67,7 @@ export default function Galeri() {
     },
    {
       id: 7,
-      src: "/content/IMG_3527.heif",
+      src: "/content/IMG_3527.jpg",
       title: "Puisi",
       desc: "Penghayatan Peserta dalam membacakan puisi, Membuat suasana yang menarik.",
     },
