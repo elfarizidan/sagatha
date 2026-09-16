@@ -71,8 +71,49 @@ export default function Footer() {
                   >
                     <FontAwesomeIcon icon={faInstagram} className="text-base" />
                   </a>
+                  
+                  <a
+                    href="https://instagram.com/best.smabosch"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Instagram SAGATHA"
+                    className="w-9 h-9 rounded-xl bg-[#136368] flex items-center justify-center text-white hover:bg-[#1FB873] hover:text-[#248999] transition-all duration-300"
+                  >
+                    <FontAwesomeIcon icon={faInstagram} className="text-base" />
+                  </a>
+
+                  <a
+                    href="https://instagram.com/smaitthariqboarding"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Instagram SAGATHA"
+                    className="w-9 h-9 rounded-xl bg-[#136368] flex items-center justify-center text-white hover:bg-[#1FB873] hover:text-[#248999] transition-all duration-300"
+                  >
+                    <FontAwesomeIcon icon={faInstagram} className="text-base" />
+                  </a>
+                  
                   <a
                     href="https://youtube.com/@sagathaofficial"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="YouTube SAGATHA"
+                    className="w-9 h-9 rounded-xl bg-[#136368] flex items-center justify-center text-white hover:bg-[#1FB873] hover:text-[#248999] transition-all duration-300"
+                  >
+                    <FontAwesomeIcon icon={faYoutube} className="text-base" />
+                  </a>
+
+                  <a
+                    href="https://youtube.com/@BEST.SMABoSch"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="YouTube SAGATHA"
+                    className="w-9 h-9 rounded-xl bg-[#136368] flex items-center justify-center text-white hover:bg-[#1FB873] hover:text-[#248999] transition-all duration-300"
+                  >
+                    <FontAwesomeIcon icon={faYoutube} className="text-base" />
+                  </a>
+
+                  <a
+                    href="https://youtube.com/@ThariqBoarding"
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="YouTube SAGATHA"
