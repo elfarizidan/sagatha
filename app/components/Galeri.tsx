@@ -38,7 +38,7 @@ export default function Galeri() {
     {
       id: 2,
       src: "/content/IMG_3506.jpg",
-      title: "Penyerahan Trofi Kejuaraan",
+      title: "Penyerahan Penghargaan Kejuaraan",
       desc: "Kebanggaan pemenang saat menerima piala penghargaan.",
     },
     {
