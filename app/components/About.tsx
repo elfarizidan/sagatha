@@ -92,7 +92,7 @@ export default function About() {
             </h2>
 
             <p className="text-sm sm:text-base lg:text-lg text-white/90 leading-relaxed max-w-2xl mb-6 sm:mb-10">
-              <strong className="text-white">SAGATHA IV (Saga Thariq 4) 2026</strong> adalah ajang kompetisi bergengsi tingkat pelajar yang mempertemukan talenta-talenta terbaik di bidang olahraga, kebahasaan, sains, dan keagamaan. Kami hadir untuk memacu semangat keunggulan, sportivitas, dan kreativitas generasi masa depan.
+              <strong className="text-white">SAGATHA IV (Saga Thariq 4) 2026</strong> adalah ajang kompetisi bergengsi tingkat SMP/MTs/Sederajat yang mempertemukan talenta-talenta terbaik di bidang olahraga, kebahasaan, sains, dan keagamaan. Kami hadir untuk memacu semangat keunggulan, sportivitas, dan kreativitas generasi masa depan.
             </p>
 
             {/* 3 Stats Row */}
