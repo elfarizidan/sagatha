@@ -49,7 +49,7 @@ export default function Galeri() {
     },
     {
       id: 4,
-      src: "/content/gallery-4.png",
+      src: "/content/IMG_0291.PNG",
       title: "Kemeriahan Bazzar Sagatha",
       desc: "Ramainya Bazzar tenant UMKM, mendukung semangat peserta dan tim.",
     },
@@ -64,6 +64,12 @@ export default function Galeri() {
       src: "/content/IMG_0290.PNG",
       title: "Musabaqah Hifzhil Qur'an",
       desc: "Lantunan ayat suci Al-Qur'an nan merdu merengkuh kedamaian di panggung MHQ.",
+    },
+   {
+      id: 7,
+      src: "/content/IMG_0291.PNG",
+      title: "Puisi yang Membara",
+      desc: "Penghayatan Peserta dalam membacakan puisi, Membuat suasana yang menarik.",
     },
   ];
 
