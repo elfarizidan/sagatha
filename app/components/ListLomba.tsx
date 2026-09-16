@@ -68,7 +68,7 @@ export default function ListLomba() {
     },
     {
       id: "speech",
-      title: "Pidato Bahasa Inggris",
+      title: "Speech Bahasa Inggris",
       category: "Kebahasaan & Public Speaking",
       icon: faMicrophone,
       image: "/content/lomba-speech.png",
