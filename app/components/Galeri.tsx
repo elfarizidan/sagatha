@@ -73,7 +73,7 @@ export default function Galeri() {
     },
     {
       id: 8,
-      src: "/content/IMG_3527.heif",
+      src: "/content/IMG_0297.PNG",
       title: "Speech",
       desc: "Pidato bahasa Inggris peserta yang menagajak kebaikan dan kebenaran.",
     },
