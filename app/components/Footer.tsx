@@ -115,13 +115,25 @@ export default function Footer() {
                 </a>
 
                 <a
-                  href="mailto:bestsmaittbzbs@gmail.com"
+                  href="https://wa.me/6289506904729"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Hubungi SAGATHA melalui WhatsApp"
+                  title="WhatsApp SAGATHA"
+                  className="inline-flex items-center gap-2 text-white transition hover:text-[#1FB873] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#1FB873]"
+                >
+                  <FontAwesomeIcon icon={faWhatsapp} className="text-xl text-[#1FB873]" />
+                  <span className="text-xs font-semibold whitespace-nowrap">+62 89506904729</span>
+                </a>
+
+                <a
+                  href="mailto:nissa@thariq.sch.id"
                   aria-label="Kirim email ke SAGATHA"
                   title="Email SAGATHA"
                   className="inline-flex items-center gap-2 text-white transition hover:text-[#1FB873] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#1FB873]"
                 >
                   <FontAwesomeIcon icon={faEnvelope} className="text-xl text-[#1FB873]" />
-                  <span className="text-xs font-semibold whitespace-nowrap">bestsmaittbzbs@gmail.com</span>
+                  <span className="text-xs font-semibold whitespace-nowrap">nissa@thariq.sch.id</span>
                 </a>
 
                 <a
@@ -132,6 +144,16 @@ export default function Footer() {
                 >
                   <FontAwesomeIcon icon={faEnvelope} className="text-xl text-[#1FB873]" />
                   <span className="text-xs font-semibold whitespace-nowrap">smaitthariqboarding@gmail.com</span>
+                </a>
+
+                 <a
+                  href="mailto:bestsmaittbzbs@gmail.com"
+                  aria-label="Kirim email ke SAGATHA"
+                  title="Email SAGATHA"
+                  className="inline-flex items-center gap-2 text-white transition hover:text-[#1FB873] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#1FB873]"
+                >
+                  <FontAwesomeIcon icon={faEnvelope} className="text-xl text-[#1FB873]" />
+                  <span className="text-xs font-semibold whitespace-nowrap">bestsmaittbzbs@gmail.com</span>
                 </a>
               </div>
             </div>
