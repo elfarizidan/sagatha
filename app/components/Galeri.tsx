@@ -13,7 +13,7 @@ import {
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
-export const GOOGLE_DRIVE_GALLERY_LINK = "https://drive.google.com";
+export const GOOGLE_DRIVE_GALLERY_LINK = "https://drive.google.com/drive/folders/1UWCDAUUn56eLWGXhoMo-fLIsqSsgcSnW";
 
 interface GalleryItem {
   id: number;
