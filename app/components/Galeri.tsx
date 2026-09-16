@@ -44,13 +44,13 @@ export default function Galeri() {
     {
       id: 3,
       src: "/content/IMG_20251024_094420_1.jpg",
-      title: "Futsal Championship",
+      title: "Futsal",
       desc: "Pertandingan sengit dan kerja sama tim luar biasa di babak final.",
     },
     {
       id: 4,
       src: "/content/IMG_0291.PNG",
-      title: "Kemeriahan Bazzar Sagatha",
+      title: "Kemeriahan Bazzar Sagatha III",
       desc: "Ramainya Bazzar tenant UMKM, mendukung semangat peserta dan tim.",
     },
     {
