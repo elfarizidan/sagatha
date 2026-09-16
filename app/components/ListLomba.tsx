@@ -63,7 +63,7 @@ export default function ListLomba() {
         "Memberikan uang deposit saat registrasi ulang",
       ],
       contactPerson: "via form",
-      WhatsappNumber: "https://forms.gle/CN7nJcxAevBtesUt7",
+     whatsappNumber: "https://forms.gle/CN7nJcxAevBtesUt7",
       driveUrl: "https://drive.google.com/drive/folders/1LBdHq-lXsdHh-S65wvRmdwgEZoLxC8Al?usp=drive_link",
     },
     {
