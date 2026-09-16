@@ -63,7 +63,7 @@ export default function ListLomba() {
         "Melampirkan Kartu Pelajar aktif saat registrasi ulang",
       ],
       contactPerson: "via form",
-      LinkForm: "https://forms.gle/CN7nJcxAevBtesUt7",
+      WhatsappNumber: "https://forms.gle/CN7nJcxAevBtesUt7",
       driveUrl: "https://drive.google.com/drive/folders/1LBdHq-lXsdHh-S65wvRmdwgEZoLxC8Al?usp=drive_link",
     },
     {
