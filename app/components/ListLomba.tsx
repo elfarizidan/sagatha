@@ -90,7 +90,7 @@ export default function ListLomba() {
     },
     {
       id: "olim-mtk",
-      title: "OSN",
+      title: "OSN Matematika",
       category: "Akademik & Sains",
       icon: faCalculator,
       image: "/content/lomba-olim-mtk.png",
