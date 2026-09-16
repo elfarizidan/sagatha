@@ -91,7 +91,7 @@ export default function Footer() {
               </h4>
               <div className="flex flex-col sm:flex-row items-start justify-start gap-4">
                 <a
-                  href="https://wa.me/6281234567890"
+                  href="https://wa.me/6285228761864"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Hubungi SAGATHA melalui WhatsApp"
@@ -99,7 +99,7 @@ export default function Footer() {
                   className="inline-flex items-center gap-2 text-white transition hover:text-[#1FB873] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#1FB873]"
                 >
                   <FontAwesomeIcon icon={faWhatsapp} className="text-xl text-[#1FB873]" />
-                  <span className="text-xs font-semibold whitespace-nowrap">+62 812-3456-7890</span>
+                  <span className="text-xs font-semibold whitespace-nowrap">+62 85228761864</span>
                 </a>
 
                 <a
@@ -109,7 +109,7 @@ export default function Footer() {
                   className="inline-flex items-center gap-2 text-white transition hover:text-[#1FB873] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#1FB873]"
                 >
                   <FontAwesomeIcon icon={faEnvelope} className="text-xl text-[#1FB873]" />
-                  <span className="text-xs font-semibold whitespace-nowrap">info@sagatha-event.id</span>
+                  <span className="text-xs font-semibold whitespace-nowrap">bestsmaittbzbs@gmail.com</span>
                 </a>
               </div>
             </div>
