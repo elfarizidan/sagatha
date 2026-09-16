@@ -43,7 +43,7 @@ export default function Galeri() {
     },
     {
       id: 3,
-      src: "/content/gallery-3.png",
+      src: "/content/IMG_20251024_094420_1.jpg",
       title: "Futsal Championship",
       desc: "Pertandingan sengit dan kerja sama tim luar biasa di babak final.",
     },
