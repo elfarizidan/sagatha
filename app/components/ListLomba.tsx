@@ -122,7 +122,7 @@ export default function ListLomba() {
       description:
         "Lomba hafalan Al-Qur'an untuk membentuk generasi penghafal Qur'an yang mutqin, fasih, serta berakhlak mulia.",
       rules: [
-        "Kategori Lomba: Juz 29 & 30",
+        "Soal Lomba: Juz 29 & 30",
         "Kriteria Penilaian: Tajwid, Fashohah, Kelancaran Hafalan (Hifdz), dan Lagu/Irama",
         "Setiap peserta mengambil amplop soal acak saat pemanggilan di panggung main stage",
       ],
@@ -187,7 +187,7 @@ export default function ListLomba() {
       description:
         "Ajang unjuk kebolehan public speaking dalam membela suatu pihak. Sampaikan gagasan inspiratifmu mengenai alam dan kondisinya saat ini",
       rules: [
-        "Tema pidato: 'Keadaan Alam Indonesia saat ini'"
+        "Tema pidato: 'Keadaan Alam Indonesia saat ini'",
         "Penilaian meliputi: Kepercayaan Diri, Pembahasan, Kaidah Bahasa Indonesia, & Kehubungan Dengan Tema",
         "Tidak diperkenankan memaki peserta lain dan mengandung SARA",
       ],
