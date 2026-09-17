@@ -49,7 +49,7 @@ export default function ListLomba() {
       title: "Futsal",
       category: "Olahraga & Sportivitas",
       icon: faFutbol,
-      image: "/content/lomba-futsal.png",
+      image: "/content/Lomba Futsal.png",
       target: "SMP/MTs/Sederajat",
       prize: "Piala, Sertifikat, Uang Tunai",
       fee: "Rp 200.000 / Tim",
