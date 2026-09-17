@@ -42,7 +42,7 @@ export default function Footer() {
                 className="h-9 w-9 object-contain"
               />
               <Image
-                src="/content/logo2.PNG"
+                src="/content/Logo2.png"
                 alt="Logo SAGATHA 2"
                 width={36}
                 height={36}
