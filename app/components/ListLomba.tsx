@@ -33,7 +33,7 @@ interface Lomba {
   description: string;
   rules: string[];
   contactPerson: string;
-  whatsappNumber: string;
+  registrationUrl: string;
   driveUrl?: string;
 }
 
@@ -63,7 +63,7 @@ export default function ListLomba() {
         "Memberikan uang deposit saat registrasi ulang",
       ],
       contactPerson: "via form",
-     whatsappNumber: "https://forms.gle/CN7nJcxAevBtesUt7",
+      registrationUrl: "https://forms.gle/CN7nJcxAevBtesUt7",
       driveUrl: "https://drive.google.com/drive/folders/1LBdHq-lXsdHh-S65wvRmdwgEZoLxC8Al?usp=drive_link",
     },
     {
@@ -85,7 +85,7 @@ export default function ListLomba() {
         "Tidak diperkenankan membaca teks secara penuh saat tampil",
       ],
       contactPerson: "via Form",
-      whatsappNumber: "https://forms.gle/fuLBXfoEMaQAXGtS6",
+      registrationUrl: "https://forms.gle/fuLBXfoEMaQAXGtS6",
       driveUrl: "https://drive.google.com/drive/folders/1LBdHq-lXsdHh-S65wvRmdwgEZoLxC8Al?usp=drive_link",
     },
     {
@@ -106,7 +106,7 @@ export default function ListLomba() {
         "Keputusan dewan juri bersifat mutlak dan tidak dapat diganggu gugat",
       ],
       contactPerson: "via Form",
-      whatsappNumber: "https://forms.gle/H34h2FSG8Vta74cy8",
+      registrationUrl: "https://forms.gle/H34h2FSG8Vta74cy8",
       driveUrl: "https://drive.google.com/drive/folders/1LBdHq-lXsdHh-S65wvRmdwgEZoLxC8Al?usp=drive_link",
     },
     {
@@ -127,7 +127,7 @@ export default function ListLomba() {
         "Setiap peserta mengambil amplop soal acak saat pemanggilan di panggung main stage",
       ],
       contactPerson: "via Form",
-      whatsappNumber: "https://forms.gle/tqjBs7VhkpxWSVXk6",
+      registrationUrl: "https://forms.gle/tqjBs7VhkpxWSVXk6",
       driveUrl: "https://drive.google.com/drive/folders/1LBdHq-lXsdHh-S65wvRmdwgEZoLxC8Al?usp=drive_link",
     },
     {
@@ -149,7 +149,7 @@ export default function ListLomba() {
         "Tidak diperkenankan plagiat/mengikuti karya orang lain",
       ],
       contactPerson: "via Form",
-      whatsappNumber: "https://forms.gle/fuLBXfoEMaQAXGtS6",
+      registrationUrl: "https://forms.gle/fuLBXfoEMaQAXGtS6",
       driveUrl: "https://drive.google.com/drive/folders/1LBdHq-lXsdHh-S65wvRmdwgEZoLxC8Al?usp=drive_link",
     },
     {
@@ -171,7 +171,7 @@ export default function ListLomba() {
         "Wajib menggunakan pakaian yang mendukung, namun tetap sopan dan nyaman",
       ],
       contactPerson: "via Form",
-      whatsappNumber: "https://forms.gle/fuLBXfoEMaQAXGtS6",
+      registrationUrl: "https://forms.gle/fuLBXfoEMaQAXGtS6",
       driveUrl: "https://drive.google.com/drive/folders/1LBdHq-lXsdHh-S65wvRmdwgEZoLxC8Al?usp=drive_link",
     },
     {
@@ -192,7 +192,7 @@ export default function ListLomba() {
         "Tidak diperkenankan memaki peserta lain dan mengandung SARA",
       ],
       contactPerson: "via Form",
-      whatsappNumber: "https://forms.gle/fuLBXfoEMaQAXGtS6",
+      registrationUrl: "https://forms.gle/fuLBXfoEMaQAXGtS6",
       driveUrl: "https://drive.google.com/drive/folders/1LBdHq-lXsdHh-S65wvRmdwgEZoLxC8Al?usp=drive_link",
     },
   ];
@@ -263,7 +263,7 @@ export default function ListLomba() {
                   <h3
                     className={`font-black text-white transition-all duration-300 ${isActive
                         ? "text-2xl sm:text-3xl lg:text-4xl mb-2 text-[#1FB873]"
-                        : "text-lg sm:text-xl lg:text-2xl text-white/90 group-hover:text-white"
+                        : "text-lg sm:text-xl lg:text-2xl text-white/90 group-hover:text-white md:[writing-mode:vertical-rl] md:rotate-180"
                       }`}
                   >
                     {lomba.title}
@@ -316,12 +316,22 @@ export default function ListLomba() {
       {selectedLomba && (
         <div
           onClick={() => setSelectedLomba(null)}
-          className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-[#091c1f]/90 backdrop-blur-sm animate-in fade-in cursor-pointer"
+          className="fixed inset-0 z-50 flex items-start justify-center overflow-y-auto p-4 pt-20 sm:pt-24 pb-6 bg-[#091c1f]/90 backdrop-blur-sm animate-in fade-in cursor-pointer"
         >
           <div
             onClick={(e) => e.stopPropagation()}
-            className="bg-[#0d2a2e] border border-[#1FB873] rounded-3xl max-w-2xl w-full max-h-[90vh] overflow-y-auto p-6 sm:p-8 shadow-2xl relative cursor-default"
+            className="bg-[#0d2a2e] border border-[#1FB873] rounded-3xl max-w-2xl w-full max-h-[calc(100vh-6rem)] overflow-y-auto p-5 pt-16 sm:p-8 sm:pt-16 shadow-2xl relative cursor-default"
           >
+            <button
+              type="button"
+              onClick={() => setSelectedLomba(null)}
+              aria-label="Tutup detail lomba"
+              title="Tutup"
+              className="absolute top-4 right-4 z-30 flex h-10 w-10 items-center justify-center rounded-full bg-[#091c1f]/80 text-white transition hover:bg-[#1FB873] hover:text-[#091c1f] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#1FB873]"
+            >
+              <FontAwesomeIcon icon={faTimes} />
+            </button>
+
             <div className="relative h-56 rounded-2xl overflow-hidden mb-6 bg-[#136368]">
               <Image
                 src={selectedLomba.image}
@@ -366,23 +376,31 @@ export default function ListLomba() {
 
             <div className="flex flex-col sm:flex-row gap-3 pt-4 border-t border-white/10">
               <a
-                href={selectedLomba.driveUrl || "https://drive.google.com"}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn-fun-secondary py-3 px-4 text-center text-sm flex items-center justify-center gap-2 hover:border-[#1FB873] hover:text-[#1FB873]"
-              >
-                <span>Buku Syarat</span>
-                <FontAwesomeIcon icon={faExternalLinkAlt} className="text-xs opacity-70" />
-              </a>
-              <a
-                href={`${selectedLomba.whatsappNumber}${encodeURIComponent(
-                  selectedLomba.title
-                )}`}
+                href={selectedLomba.registrationUrl}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-fun-primary flex-1 py-3 text-center text-sm flex items-center justify-center gap-2 bg-[#0D816A] hover:bg-[#1FB873] hover:text-[#091c1f]"
               >
-                <span>Daftar {selectedLomba.contactPerson}</span>
+                <span>Daftar via Form</span>
+                <FontAwesomeIcon icon={faExternalLinkAlt} className="text-xs opacity-70" />
+              </a>
+              <a
+                href={selectedLomba.registrationUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn-fun-secondary flex-1 py-3 text-center text-sm flex items-center justify-center gap-2 hover:border-[#1FB873] hover:text-[#1FB873]"
+              >
+                <span>Daftar Peserta</span>
+                <FontAwesomeIcon icon={faExternalLinkAlt} className="text-xs opacity-70" />
+              </a>
+              <a
+                href={selectedLomba.driveUrl || "https://drive.google.com"}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn-fun-secondary flex-1 py-3 px-4 text-center text-sm flex items-center justify-center gap-2 hover:border-[#1FB873] hover:text-[#1FB873]"
+              >
+                <span>Buku Syarat</span>
+                <FontAwesomeIcon icon={faExternalLinkAlt} className="text-xs opacity-70" />
               </a>
             </div>
           </div>

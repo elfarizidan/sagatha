@@ -55,13 +55,15 @@ export default function Footer() {
               Saga Thariq 4 — Ajang kejuaraan pelajar bergengsi menghadirkan kompetisi Futsal, Speech, Olimpiade Matematika, MHQ, Puisi, Mural, dan Debat.
             </p>
 
-            {/* Social Media Links & Contact Badges Side-by-Side */}
-            <div className="mt-4 flex flex-wrap items-center justify-between gap-4">
-              <div>
-                <h4 className="text-[11px] font-extrabold uppercase tracking-widest text-[#1FB873] mb-2">
-                  Ikuti Kami di Media Sosial:
-                </h4>
-                <div className="flex items-center gap-2">
+            {/* Social Media Links by Account */}
+            <div className="mt-4">
+              <h4 className="text-[11px] font-extrabold uppercase tracking-widest text-[#1FB873] mb-3">
+                Ikuti Kami di Media Sosial:
+              </h4>
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+                <div>
+                  <p className="text-[10px] font-bold uppercase tracking-wider text-white/70 mb-2">SAGATHA</p>
+                  <div className="flex items-center gap-2">
                   <a
                     href="https://instagram.com/sagatha.official"
                     target="_blank"
@@ -71,27 +73,6 @@ export default function Footer() {
                   >
                     <FontAwesomeIcon icon={faInstagram} className="text-base" />
                   </a>
-                  
-                  <a
-                    href="https://instagram.com/best.smabosch"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    aria-label="Instagram SAGATHA"
-                    className="w-9 h-9 rounded-xl bg-[#136368] flex items-center justify-center text-white hover:bg-[#1FB873] hover:text-[#248999] transition-all duration-300"
-                  >
-                    <FontAwesomeIcon icon={faInstagram} className="text-base" />
-                  </a>
-
-                  <a
-                    href="https://instagram.com/smaitthariqboarding"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    aria-label="Instagram SAGATHA"
-                    className="w-9 h-9 rounded-xl bg-[#136368] flex items-center justify-center text-white hover:bg-[#1FB873] hover:text-[#248999] transition-all duration-300"
-                  >
-                    <FontAwesomeIcon icon={faInstagram} className="text-base" />
-                  </a>
-                  
                   <a
                     href="https://youtube.com/@sagathaofficial"
                     target="_blank"
@@ -101,26 +82,55 @@ export default function Footer() {
                   >
                     <FontAwesomeIcon icon={faYoutube} className="text-base" />
                   </a>
+                  </div>
+                </div>
 
+                <div>
+                  <p className="text-[10px] font-bold uppercase tracking-wider text-white/70 mb-2">BEST SMA TBZBS</p>
+                  <div className="flex items-center gap-2">
+                  <a
+                    href="https://instagram.com/best.smabosch"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Instagram BEST SMA BoSch"
+                    className="w-9 h-9 rounded-xl bg-[#136368] flex items-center justify-center text-white hover:bg-[#1FB873] hover:text-[#248999] transition-all duration-300"
+                  >
+                    <FontAwesomeIcon icon={faInstagram} className="text-base" />
+                  </a>
                   <a
                     href="https://youtube.com/@BEST.SMABoSch"
                     target="_blank"
                     rel="noopener noreferrer"
-                    aria-label="YouTube SAGATHA"
+                    aria-label="YouTube BEST SMA BoSch"
                     className="w-9 h-9 rounded-xl bg-[#136368] flex items-center justify-center text-white hover:bg-[#1FB873] hover:text-[#248999] transition-all duration-300"
                   >
                     <FontAwesomeIcon icon={faYoutube} className="text-base" />
                   </a>
+                  </div>
+                </div>
 
+                <div>
+                  <p className="text-[10px] font-bold uppercase tracking-wider text-white/70 mb-2">SMAIT TBZBS</p>
+                  <div className="flex items-center gap-2">
+                  <a
+                    href="https://instagram.com/smaitthariqboarding"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Instagram SMAIT Thariq Boarding"
+                    className="w-9 h-9 rounded-xl bg-[#136368] flex items-center justify-center text-white hover:bg-[#1FB873] hover:text-[#248999] transition-all duration-300"
+                  >
+                    <FontAwesomeIcon icon={faInstagram} className="text-base" />
+                  </a>
                   <a
                     href="https://youtube.com/@ThariqBoarding"
                     target="_blank"
                     rel="noopener noreferrer"
-                    aria-label="YouTube SAGATHA"
+                    aria-label="YouTube SMAIT Thariq Boarding"
                     className="w-9 h-9 rounded-xl bg-[#136368] flex items-center justify-center text-white hover:bg-[#1FB873] hover:text-[#248999] transition-all duration-300"
                   >
                     <FontAwesomeIcon icon={faYoutube} className="text-base" />
                   </a>
+                  </div>
                 </div>
               </div>
             </div>
@@ -130,17 +140,17 @@ export default function Footer() {
               <h4 className="text-[11px] font-extrabold uppercase tracking-widest text-[#1FB873] mb-3">
                 Hubungi Kami:
               </h4>
-              <div className="flex flex-col sm:flex-row items-start justify-start gap-4">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-3">
                 <a
                   href="https://wa.me/6285228761864"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Hubungi SAGATHA melalui WhatsApp"
                   title="WhatsApp SAGATHA"
-                  className="inline-flex items-center gap-2 text-white transition hover:text-[#1FB873] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#1FB873]"
+                  className="inline-flex min-w-0 items-center gap-2 text-white transition hover:text-[#1FB873] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#1FB873]"
                 >
                   <FontAwesomeIcon icon={faWhatsapp} className="text-xl text-[#1FB873]" />
-                  <span className="text-xs font-semibold whitespace-nowrap">+62 85228761864</span>
+                  <span className="text-xs font-semibold break-all">+62 85228761864</span>
                 </a>
 
                 <a
@@ -149,10 +159,10 @@ export default function Footer() {
                   rel="noopener noreferrer"
                   aria-label="Hubungi SAGATHA melalui WhatsApp"
                   title="WhatsApp SAGATHA"
-                  className="inline-flex items-center gap-2 text-white transition hover:text-[#1FB873] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#1FB873]"
+                  className="inline-flex min-w-0 items-center gap-2 text-white transition hover:text-[#1FB873] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#1FB873]"
                 >
                   <FontAwesomeIcon icon={faWhatsapp} className="text-xl text-[#1FB873]" />
-                  <span className="text-xs font-semibold whitespace-nowrap">+62 85659513039</span>
+                  <span className="text-xs font-semibold break-all">+62 85659513039</span>
                 </a>
 
                 <a
@@ -161,40 +171,40 @@ export default function Footer() {
                   rel="noopener noreferrer"
                   aria-label="Hubungi SAGATHA melalui WhatsApp"
                   title="WhatsApp SAGATHA"
-                  className="inline-flex items-center gap-2 text-white transition hover:text-[#1FB873] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#1FB873]"
+                  className="inline-flex min-w-0 items-center gap-2 text-white transition hover:text-[#1FB873] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#1FB873]"
                 >
                   <FontAwesomeIcon icon={faWhatsapp} className="text-xl text-[#1FB873]" />
-                  <span className="text-xs font-semibold whitespace-nowrap">+62 89506904729</span>
+                  <span className="text-xs font-semibold break-all">+62 89506904729</span>
                 </a>
 
                 <a
                   href="mailto:nissa@thariq.sch.id"
                   aria-label="Kirim email ke SAGATHA"
                   title="Email SAGATHA"
-                  className="inline-flex items-center gap-2 text-white transition hover:text-[#1FB873] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#1FB873]"
+                  className="inline-flex min-w-0 items-center gap-2 text-white transition hover:text-[#1FB873] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#1FB873]"
                 >
                   <FontAwesomeIcon icon={faEnvelope} className="text-xl text-[#1FB873]" />
-                  <span className="text-xs font-semibold whitespace-nowrap">nissa@thariq.sch.id</span>
+                  <span className="text-xs font-semibold break-all">nissa@thariq.sch.id</span>
                 </a>
 
                 <a
                   href="mailto:smaitthariqboarding@gmail.com"
                   aria-label="Kirim email ke SAGATHA"
                   title="Email SAGATHA"
-                  className="inline-flex items-center gap-2 text-white transition hover:text-[#1FB873] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#1FB873]"
+                  className="inline-flex min-w-0 items-center gap-2 text-white transition hover:text-[#1FB873] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#1FB873]"
                 >
                   <FontAwesomeIcon icon={faEnvelope} className="text-xl text-[#1FB873]" />
-                  <span className="text-xs font-semibold whitespace-nowrap">smaitthariqboarding@gmail.com</span>
+                  <span className="text-xs font-semibold break-all">smaitthariqboarding@gmail.com</span>
                 </a>
 
                  <a
                   href="mailto:bestsmaittbzbs@gmail.com"
                   aria-label="Kirim email ke SAGATHA"
                   title="Email SAGATHA"
-                  className="inline-flex items-center gap-2 text-white transition hover:text-[#1FB873] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#1FB873]"
+                  className="inline-flex min-w-0 items-center gap-2 text-white transition hover:text-[#1FB873] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#1FB873]"
                 >
                   <FontAwesomeIcon icon={faEnvelope} className="text-xl text-[#1FB873]" />
-                  <span className="text-xs font-semibold whitespace-nowrap">bestsmaittbzbs@gmail.com</span>
+                  <span className="text-xs font-semibold break-all">bestsmaittbzbs@gmail.com</span>
                 </a>
               </div>
             </div>

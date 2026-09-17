@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef } from "react";
+import Image from "next/image";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
@@ -66,9 +67,18 @@ export default function About() {
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 w-full">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-14 items-center">
-          {/* Left Column: Looping Video */}
+          {/* Left Column: About Image */}
           <div ref={imageRef} className="lg:col-span-5 w-full flex justify-center">
             <div className="relative w-full aspect-[4/5] max-w-md lg:max-w-none rounded-3xl overflow-hidden shadow-2xl group max-h-[55vh] lg:max-h-[65vh]">
+              <Image
+                src="/content/IMG_9784.jpg"
+                alt="Suasana kegiatan SAGATHA"
+                fill
+                className="w-full h-full object-cover object-center transition-transform duration-700 ease-out"
+                sizes="(max-width: 1024px) 100vw, 42vw"
+              />
+
+              {/* To restore the video, replace the Image above with this block:
               <video
                 autoPlay
                 loop
@@ -78,6 +88,7 @@ export default function About() {
               >
                 <source src="/content/About.mp4" type="video/mp4" />
               </video>
+              */}
             </div>
           </div>
 
