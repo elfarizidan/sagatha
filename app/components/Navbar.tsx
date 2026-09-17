@@ -118,7 +118,7 @@ export default function Navbar() {
                 priority
               />
               <Image
-                src="/content/logo2.PNG"
+                src="/content/logo2.png"
                 alt="Logo SAGATHA 2"
                 width={44}
                 height={44}
@@ -157,7 +157,7 @@ export default function Navbar() {
                 className="h-9 w-9 object-contain"
               />
               <Image
-                src="/content/logo2.PNG"
+                src="/content/logo2.png"
                 alt="Logo 2"
                 width={36}
                 height={36}
