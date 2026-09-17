@@ -179,7 +179,7 @@ export default function ListLomba() {
       title: "Debat Demokratif",
       category: "Kegagahan, Keberanian, & Public Speaking",
       icon: faMicrophone,
-      image: "/content/lomba-speech.png",
+      image: "/content/Lomba Debat.PNG",
       target: "SMP/MTs/Sederajat",
       prize: "Sertifikat, Piala, Uang Tunai",
       fee: "Gratis/Peserta",
