@@ -135,7 +135,7 @@ export default function ListLomba() {
       title: "Mural Alam",
       category: "Seni Karya",
       icon: faMicrophone,
-      image: "/content/lomba-speech.png",
+      image: "/content/Lomba Mural.png",
       target: "SMP/MTs/Sederajat",
       prize: "Sertifikat, Piala, Uang Tunai",
       fee: "Rp. 50.000/Tim",
