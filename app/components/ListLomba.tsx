@@ -114,7 +114,7 @@ export default function ListLomba() {
       title: "MHQ",
       category: "Keagamaan & Keislaman",
       icon: faBookQuran,
-      image: "/content/lomba-mhq.png",
+      image: "/content/Lomba MHQ.png",
       target: "SMP/MTs/Sederatat",
       prize: "Beasiswa, Piala, Uang Tunai, Sertifikat",
       fee: "Gratis/Peserta",
