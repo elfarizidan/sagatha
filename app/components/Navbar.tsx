@@ -110,7 +110,7 @@ export default function Navbar() {
               className="cursor-pointer inline-flex items-center gap-2 lg:gap-3 absolute lg:static left-1/2 lg:left-0 -translate-x-1/2 lg:translate-x-0 top-1/2 lg:top-0 -translate-y-1/2 lg:translate-y-0"
             >
               <Image
-                src="/content/logo1.png"
+                src="/content/Logo1.png"
                 alt="Logo SAGATHA 1"
                 width={44}
                 height={44}
@@ -150,7 +150,7 @@ export default function Navbar() {
           <div className="flex items-center justify-between border-b border-white/10 pb-6">
             <div className="flex items-center gap-3">
               <Image
-                src="/content/logo1.png"
+                src="/contentLogo1.png"
                 alt="Logo 1"
                 width={36}
                 height={36}
