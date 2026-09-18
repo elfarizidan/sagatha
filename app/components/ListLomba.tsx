@@ -252,9 +252,12 @@ export default function ListLomba() {
                     : "flex-1 min-h-[140px] md:min-h-0"
                   }`}
               >
-                <div
-                  className="absolute inset-0 bg-no-repeat bg-center bg-cover transition-transform duration-700 ease-out"
-                  style={{ backgroundImage: `url(${lomba.image})` }}
+                <Image
+                  src={lomba.image}
+                  alt={lomba.title}
+                  fill
+                  sizes="(max-width: 768px) 100vw, 25vw"
+                  className="object-cover transition-transform duration-700 ease-out group-hover:scale-105"
                 />
 
                 <div className="absolute -inset-[1px] bg-gradient-to-t from-black via-black/85 via-50% to-transparent z-10 pointer-events-none" />
