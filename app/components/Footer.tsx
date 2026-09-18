@@ -35,7 +35,7 @@ export default function Footer() {
           <div className="lg:col-span-5 flex h-full flex-col">
             <div className="flex items-center gap-3">
               <Image
-                src="/content/logo1.png"
+                src="/content/Logo1.png"
                 alt="Logo SAGATHA 1"
                 width={36}
                 height={36}
