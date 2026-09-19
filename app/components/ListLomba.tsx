@@ -220,7 +220,7 @@ export default function ListLomba() {
 
             <div className="flex items-center gap-2 font-bold text-xs sm:text-sm">
               <span>Buka Link sekarang</span>
-              <FontAwesomeIcon icon={faArrowUpRightFromSquare} className="text-xs" />
+              <FontAwesomeIcon icon={faArrowRight} className="text-xs" />
             </div>
           </a>
   
