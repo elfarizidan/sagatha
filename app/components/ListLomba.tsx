@@ -64,7 +64,7 @@ export default function ListLomba() {
       ],
       contactPerson: "via form",
       registrationUrl: "https://linktr.ee/bestsmaittbzbs",
-      driveUrl: "https://drive.google.com/drive/folders/1-S1RXkLopK4E3FPvZSAUZrZIPn9a3GqD?usp=sharing",
+      driveUrl: "https://drive.google.com/drive/folders/1LBdHq-lXsdHh-S65wvRmdwgEZoLxC8Al?usp=drive_link",
     },
     {
       id: "speech",
@@ -86,7 +86,7 @@ export default function ListLomba() {
       ],
       contactPerson: "via Form",
       registrationUrl: "https://linktr.ee/bestsmaittbzbs",
-      driveUrl: "https://drive.google.com/drive/folders/1-S1RXkLopK4E3FPvZSAUZrZIPn9a3GqD?usp=sharing",
+      driveUrl: "https://drive.google.com/drive/folders/1LBdHq-lXsdHh-S65wvRmdwgEZoLxC8Al?usp=drive_link",
     },
     {
       id: "olim-mtk",
@@ -107,7 +107,7 @@ export default function ListLomba() {
       ],
       contactPerson: "via Form",
       registrationUrl: "https://linktr.ee/bestsmaittbzbs",
-      driveUrl: "https://drive.google.com/drive/folders/1-S1RXkLopK4E3FPvZSAUZrZIPn9a3GqD?usp=sharing",
+      driveUrl: "https://drive.google.com/drive/folders/1LBdHq-lXsdHh-S65wvRmdwgEZoLxC8Al?usp=drive_link",
     },
     {
       id: "mhq",
@@ -128,7 +128,7 @@ export default function ListLomba() {
       ],
       contactPerson: "via Form",
       registrationUrl: "https://linktr.ee/bestsmaittbzbs",
-      driveUrl: "https://drive.google.com/drive/folders/1-S1RXkLopK4E3FPvZSAUZrZIPn9a3GqD?usp=sharing",
+      driveUrl: "https://drive.google.com/drive/folders/1LBdHq-lXsdHh-S65wvRmdwgEZoLxC8Al?usp=drive_link",
     },
     {
       id: "Mural",
@@ -150,7 +150,7 @@ export default function ListLomba() {
       ],
       contactPerson: "via Form",
       registrationUrl: "https://linktr.ee/bestsmaittbzbs",
-      driveUrl: "https://drive.google.com/drive/folders/1-S1RXkLopK4E3FPvZSAUZrZIPn9a3GqD?usp=sharing",
+      driveUrl: "https://drive.google.com/drive/folders/1LBdHq-lXsdHh-S65wvRmdwgEZoLxC8Al?usp=drive_link",
     },
     {
       id: "puisi",
@@ -193,7 +193,7 @@ export default function ListLomba() {
       ],
       contactPerson: "via Form",
       registrationUrl: "https://linktr.ee/bestsmaittbzbs",
-      driveUrl: "https://drive.google.com/drive/folders/1-S1RXkLopK4E3FPvZSAUZrZIPn9a3GqD?usp=sharing",
+      driveUrl: "https://drive.google.com/drive/folders/1LBdHq-lXsdHh-S65wvRmdwgEZoLxC8Al?usp=drive_link",
     },
   ];
 
