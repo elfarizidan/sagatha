@@ -63,8 +63,8 @@ export default function ListLomba() {
         "Memberikan uang deposit saat registrasi ulang",
       ],
       contactPerson: "via form",
-      registrationUrl: "https://forms.gle/CN7nJcxAevBtesUt7",
-      driveUrl: "https://drive.google.com/drive/folders/1LBdHq-lXsdHh-S65wvRmdwgEZoLxC8Al?usp=drive_link",
+      registrationUrl: "https://linktr.ee/bestsmaittbzbs",
+      driveUrl: "https://drive.google.com/drive/folders/1-S1RXkLopK4E3FPvZSAUZrZIPn9a3GqD?usp=sharing",
     },
     {
       id: "speech",
@@ -85,8 +85,8 @@ export default function ListLomba() {
         "Tidak diperkenankan membaca teks secara penuh saat tampil",
       ],
       contactPerson: "via Form",
-      registrationUrl: "https://forms.gle/fuLBXfoEMaQAXGtS6",
-      driveUrl: "https://drive.google.com/drive/folders/1LBdHq-lXsdHh-S65wvRmdwgEZoLxC8Al?usp=drive_link",
+      registrationUrl: "https://linktr.ee/bestsmaittbzbs",
+      driveUrl: "https://drive.google.com/drive/folders/1-S1RXkLopK4E3FPvZSAUZrZIPn9a3GqD?usp=sharing",
     },
     {
       id: "olim-mtk",
@@ -106,8 +106,8 @@ export default function ListLomba() {
         "Keputusan dewan juri bersifat mutlak dan tidak dapat diganggu gugat",
       ],
       contactPerson: "via Form",
-      registrationUrl: "https://forms.gle/H34h2FSG8Vta74cy8",
-      driveUrl: "https://drive.google.com/drive/folders/1LBdHq-lXsdHh-S65wvRmdwgEZoLxC8Al?usp=drive_link",
+      registrationUrl: "https://linktr.ee/bestsmaittbzbs",
+      driveUrl: "https://drive.google.com/drive/folders/1-S1RXkLopK4E3FPvZSAUZrZIPn9a3GqD?usp=sharing",
     },
     {
       id: "mhq",
@@ -127,8 +127,8 @@ export default function ListLomba() {
         "Setiap peserta mengambil amplop soal acak saat pemanggilan di panggung main stage",
       ],
       contactPerson: "via Form",
-      registrationUrl: "https://forms.gle/tqjBs7VhkpxWSVXk6",
-      driveUrl: "https://drive.google.com/drive/folders/1LBdHq-lXsdHh-S65wvRmdwgEZoLxC8Al?usp=drive_link",
+      registrationUrl: "https://linktr.ee/bestsmaittbzbs",
+      driveUrl: "https://drive.google.com/drive/folders/1-S1RXkLopK4E3FPvZSAUZrZIPn9a3GqD?usp=sharing",
     },
     {
       id: "Mural",
@@ -149,8 +149,8 @@ export default function ListLomba() {
         "Tidak diperkenankan plagiat/mengikuti karya orang lain",
       ],
       contactPerson: "via Form",
-      registrationUrl: "https://forms.gle/fuLBXfoEMaQAXGtS6",
-      driveUrl: "https://drive.google.com/drive/folders/1LBdHq-lXsdHh-S65wvRmdwgEZoLxC8Al?usp=drive_link",
+      registrationUrl: "https://linktr.ee/bestsmaittbzbs",
+      driveUrl: "https://drive.google.com/drive/folders/1-S1RXkLopK4E3FPvZSAUZrZIPn9a3GqD?usp=sharing",
     },
     {
       id: "puisi",
@@ -171,8 +171,8 @@ export default function ListLomba() {
         "Wajib menggunakan pakaian yang mendukung, namun tetap sopan dan nyaman",
       ],
       contactPerson: "via Form",
-      registrationUrl: "https://forms.gle/fuLBXfoEMaQAXGtS6",
-      driveUrl: "https://drive.google.com/drive/folders/1LBdHq-lXsdHh-S65wvRmdwgEZoLxC8Al?usp=drive_link",
+      registrationUrl: "https://linktr.ee/bestsmaittbzbs",
+        driveUrl: "https://drive.google.com/drive/folders/1LBdHq-lXsdHh-S65wvRmdwgEZoLxC8Al?usp=drive_link",
     },
     {
       id: "Debat",
@@ -192,8 +192,8 @@ export default function ListLomba() {
         "Tidak diperkenankan memaki peserta lain dan mengandung SARA",
       ],
       contactPerson: "via Form",
-      registrationUrl: "https://forms.gle/fuLBXfoEMaQAXGtS6",
-      driveUrl: "https://drive.google.com/drive/folders/1LBdHq-lXsdHh-S65wvRmdwgEZoLxC8Al?usp=drive_link",
+      registrationUrl: "https://linktr.ee/bestsmaittbzbs",
+      driveUrl: "https://drive.google.com/drive/folders/1-S1RXkLopK4E3FPvZSAUZrZIPn9a3GqD?usp=sharing",
     },
   ];
 
@@ -382,25 +382,16 @@ export default function ListLomba() {
                 href={selectedLomba.registrationUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="btn-fun-primary flex-1 py-3 text-center text-sm flex items-center justify-center gap-2 bg-[#0D816A] hover:bg-[#1FB873] hover:text-[#091c1f]"
+                className="btn-fun-primary flex-[7] py-3 text-center text-sm flex items-center justify-center gap-2 bg-[#0D816A] hover:bg-[#1FB873] hover:text-[#091c1f]"
               >
                 <span>Daftar via Form</span>
                 <FontAwesomeIcon icon={faExternalLinkAlt} className="text-xs opacity-70" />
               </a>
               <a
-                href={selectedLomba.registrationUrl}
+                href={selectedLomba.driveUrl || "https://drive.google.com/drive/folders/17XB-sITPCimKaI6HhIJZUV8ftVnmM0wf?usp=sharing"}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="btn-fun-secondary flex-1 py-3 text-center text-sm flex items-center justify-center gap-2 hover:border-[#1FB873] hover:text-[#1FB873]"
-              >
-                <span>Daftar Peserta</span>
-                <FontAwesomeIcon icon={faExternalLinkAlt} className="text-xs opacity-70" />
-              </a>
-              <a
-                href={selectedLomba.driveUrl || "https://drive.google.com"}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn-fun-secondary flex-1 py-3 px-4 text-center text-sm flex items-center justify-center gap-2 hover:border-[#1FB873] hover:text-[#1FB873]"
+                className="btn-fun-secondary flex-[3] py-3 px-4 text-center text-sm flex items-center justify-center gap-2 hover:border-[#1FB873] hover:text-[#1FB873]"
               >
                 <span>Buku Syarat</span>
                 <FontAwesomeIcon icon={faExternalLinkAlt} className="text-xs opacity-70" />
