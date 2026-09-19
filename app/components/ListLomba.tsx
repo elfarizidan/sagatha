@@ -222,7 +222,6 @@ export default function ListLomba() {
               <FontAwesomeIcon icon={faArrowUpRightFromSquare} className="text-xs" />
             </div>
           </a>
-        </div>
       </div>
   ];
 
