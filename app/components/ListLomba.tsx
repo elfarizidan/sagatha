@@ -63,7 +63,7 @@ export default function ListLomba() {
         "Memberikan uang deposit saat registrasi ulang",
       ],
       contactPerson: "via form",
-      registrationUrl: "https://linktr.ee/bestsmaittbzbs",
+      registrationUrl: "https://forms.gle/2cNpkirviAxKGtat8",
       driveUrl: "https://drive.google.com/drive/folders/1LBdHq-lXsdHh-S65wvRmdwgEZoLxC8Al?usp=drive_link",
     },
     {
@@ -85,7 +85,7 @@ export default function ListLomba() {
         "Tidak diperkenankan membaca teks secara penuh saat tampil",
       ],
       contactPerson: "via Form",
-      registrationUrl: "https://linktr.ee/bestsmaittbzbs",
+      registrationUrl: "https://forms.gle/2cNpkirviAxKGtat8",
       driveUrl: "https://drive.google.com/drive/folders/1LBdHq-lXsdHh-S65wvRmdwgEZoLxC8Al?usp=drive_link",
     },
     {
@@ -106,7 +106,7 @@ export default function ListLomba() {
         "Keputusan dewan juri bersifat mutlak dan tidak dapat diganggu gugat",
       ],
       contactPerson: "via Form",
-      registrationUrl: "https://linktr.ee/bestsmaittbzbs",
+      registrationUrl: "https://forms.gle/2cNpkirviAxKGtat8",
       driveUrl: "https://drive.google.com/drive/folders/1LBdHq-lXsdHh-S65wvRmdwgEZoLxC8Al?usp=drive_link",
     },
     {
@@ -127,7 +127,7 @@ export default function ListLomba() {
         "Setiap peserta mengambil amplop soal acak saat pemanggilan di panggung main stage",
       ],
       contactPerson: "via Form",
-      registrationUrl: "https://linktr.ee/bestsmaittbzbs",
+      registrationUrl: "https://forms.gle/2cNpkirviAxKGtat8",
       driveUrl: "https://drive.google.com/drive/folders/1LBdHq-lXsdHh-S65wvRmdwgEZoLxC8Al?usp=drive_link",
     },
     {
@@ -149,7 +149,7 @@ export default function ListLomba() {
         "Tidak diperkenankan plagiat/mengikuti karya orang lain",
       ],
       contactPerson: "via Form",
-      registrationUrl: "https://linktr.ee/bestsmaittbzbs",
+      registrationUrl: "https://forms.gle/2cNpkirviAxKGtat8",
       driveUrl: "https://drive.google.com/drive/folders/1LBdHq-lXsdHh-S65wvRmdwgEZoLxC8Al?usp=drive_link",
     },
     {
@@ -171,7 +171,7 @@ export default function ListLomba() {
         "Wajib menggunakan pakaian yang mendukung, namun tetap sopan dan nyaman",
       ],
       contactPerson: "via Form",
-      registrationUrl: "https://linktr.ee/bestsmaittbzbs",
+      registrationUrl: "https://forms.gle/2cNpkirviAxKGtat8",
         driveUrl: "https://drive.google.com/drive/folders/1LBdHq-lXsdHh-S65wvRmdwgEZoLxC8Al?usp=drive_link",
     },
     {
@@ -192,7 +192,7 @@ export default function ListLomba() {
         "Tidak diperkenankan memaki peserta lain dan mengandung SARA",
       ],
       contactPerson: "via Form",
-      registrationUrl: "https://linktr.ee/bestsmaittbzbs",
+      registrationUrl: "https://forms.gle/2cNpkirviAxKGtat8",
       driveUrl: "https://drive.google.com/drive/folders/1LBdHq-lXsdHh-S65wvRmdwgEZoLxC8Al?usp=drive_link",
     },
   ];
