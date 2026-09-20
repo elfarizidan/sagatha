@@ -195,6 +195,28 @@ export default function ListLomba() {
       registrationUrl: "https://forms.gle/2cNpkirviAxKGtat8",
       driveUrl: "https://drive.google.com/drive/folders/1LBdHq-lXsdHh-S65wvRmdwgEZoLxC8Al?usp=drive_link",
     },
+    {
+      id: "daftar",
+      title: "Daftar dan Informasi lainnya",
+      category: "Keikut sertaan SAGATHA IV",
+      icon: faMicrophone,
+      image: "/content/Lomba Speech.png",
+      target: "Pendampim & Bazzar",
+      prize: "Sertifikat, Makan Siang/Snack Box",
+      fee: "Gratis/Pembimbing & Rp.300.000/Merk Tenant",
+      date: "14-15 November 2026",
+      description:
+        "Terbuka lebar untuk membantu memeriahkan ajang SAGATHA IV",
+      rules: [
+        "Wajib terdaftar dan aktif",
+        "Bertanggung jawab atas segala sesuatu yang di lakukan",
+        "Membantu dan menjaga kemeriahan dan kenyamanan SAGATHA IV",
+        "Tidak diperkenankan membawa barang an bahan selama mengikuti SAGATHA IV",
+      ],
+      contactPerson: "via Form",
+      registrationUrl: "https://linktr.ee/bestsmaittbzbs",
+      driveUrl: "https://drive.google.com/drive/folders/1LBdHq-lXsdHh-S65wvRmdwgEZoLxC8Al?usp=drive_link",
+    },
 ];
     
   useEffect(() => {
