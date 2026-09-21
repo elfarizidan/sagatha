@@ -75,7 +75,7 @@ export default function Galeri() {
       id: 8,
       src: "/content/Dok Speech.PNG",
       title: "Speech",
-      desc: "Pidato bahasa Inggris peserta yang menagajak kebaikan dan kebenaran.",
+      desc: "Pidato bahasa Inggris peserta yang mengajak kebaikan dan kebenaran.",
     },
   ];
 
