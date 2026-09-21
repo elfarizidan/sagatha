@@ -79,7 +79,7 @@ export default function ListLomba() {
       description:
         "Ajang unjuk kebolehan public speaking dalam Bahasa Inggris. Sampaikan gagasan inspiratifmu mengenai alam dan kondisinya saat ini",
       rules: [
-        "Tema pidato: 'Youth Leadership & Innovation in Digital Era'",
+        "Tema pidato: 'The Lungs of the Earth: Why We Must Save Our Jungles'",
         "Durasi pidato 5-7 menit per peserta",
         "Penilaian meliputi: Oratory skill, Pronunciation, Content Structure, & Confidence",
         "Tidak diperkenankan membaca teks secara penuh saat tampil",
