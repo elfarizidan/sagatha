@@ -55,7 +55,7 @@ export default function ListLomba() {
       fee: "Rp 200.000 / Tim",
       date: "14 - 15 November 2026",
       description:
-        "Turnamen futsal antar pelajar jenjang SMP/MTs/Sederjat. Pertandingan sengit, lapangan, wasit berpengalaman, dan pendukung yang meriah!",
+        "Turnamen futsal antar pelajar jenjang SMP/MTs/Sederjat. Dengan sportivitas yang tinggi",
       rules: [
         "Sistem gugur (Knockout system) 2x10 menit",
         "Setiap tim terdiri dari 6 pemain inti dan maksimal 6 pemain cadangan",
