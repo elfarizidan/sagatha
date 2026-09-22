@@ -193,7 +193,7 @@ export default function ListLomba() {
       ],
       contactPerson: "via Form",
       registrationUrl: "https://forms.gle/2cNpkirviAxKGtat8",
-      driveUrl: "https://drive.google.com/drive/folders/1LBdHq-lXsdHh-S65wvRmdwgEZoLxC8Al?usp=drive_link",
+      driveUrl: "https://drive.google.com/file/d/1U5mjFpushT6RObTAIea59cFLVT1uQaSK/view?usp=sharing",
     },
 ];
     
