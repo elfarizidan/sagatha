@@ -86,7 +86,7 @@ export default function ListLomba() {
       ],
       contactPerson: "via Form",
       registrationUrl: "https://forms.gle/2cNpkirviAxKGtat8",
-      driveUrl: "https://drive.google.com/drive/folders/1LBdHq-lXsdHh-S65wvRmdwgEZoLxC8Al?usp=drive_link",
+      driveUrl: "https://drive.google.com/file/d/1z4t2OVXY5ySEqHJS11VZ3QmSDIVYj2zC/view?usp=sharing",
     },
     {
       id: "olim-mtk",
@@ -128,7 +128,7 @@ export default function ListLomba() {
       ],
       contactPerson: "via Form",
       registrationUrl: "https://forms.gle/2cNpkirviAxKGtat8",
-      driveUrl: "https://drive.google.com/drive/folders/1LBdHq-lXsdHh-S65wvRmdwgEZoLxC8Al?usp=drive_link",
+      driveUrl: "https://drive.google.com/file/d/1viyjbJ8622kACW-ToayfOdUkuR-bU6cV/view?usp=sharing",
     },
     {
       id: "Mural",
@@ -150,7 +150,7 @@ export default function ListLomba() {
       ],
       contactPerson: "via Form",
       registrationUrl: "https://forms.gle/2cNpkirviAxKGtat8",
-      driveUrl: "https://drive.google.com/drive/folders/1LBdHq-lXsdHh-S65wvRmdwgEZoLxC8Al?usp=drive_link",
+      driveUrl: "https://drive.google.com/file/d/13j3G3n3KFcPF6UKyKr33tRnh8WxoDYSy/view?usp=sharing",
     },
     {
       id: "puisi",
@@ -172,7 +172,7 @@ export default function ListLomba() {
       ],
       contactPerson: "via Form",
       registrationUrl: "https://forms.gle/2cNpkirviAxKGtat8",
-        driveUrl: "https://drive.google.com/drive/folders/1LBdHq-lXsdHh-S65wvRmdwgEZoLxC8Al?usp=drive_link",
+        driveUrl: "https://drive.google.com/file/d/1hL8UKTyhlGEnGLHNvHlRpJ4ORy7_4OnK/view?usp=sharing",
     },
     {
       id: "Debat",
