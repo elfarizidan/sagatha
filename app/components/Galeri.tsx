@@ -122,7 +122,7 @@ export default function Galeri() {
             </h2>
           </div>
           <p className="text-sm sm:text-base text-white/90 max-w-md">
-            Scroll untuk menjelajahi seluruh dokumentasi keseruan, kerja keras, dan selebrasi di SAGATHA!
+            Scroll kebawah untuk menjelajahi seluruh dokumentasi keseruan, kerja keras, dan kebahagian di SAGATHA III!
           </p>
         </div>
       </div>
