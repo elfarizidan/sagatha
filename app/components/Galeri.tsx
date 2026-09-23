@@ -199,10 +199,10 @@ export default function Galeri() {
 
             <div>
               <span className="text-xs font-bold tracking-widest uppercase text-white/80 group-hover:text-[#091c1f]/80 block mb-2">
-                Informasi lebih lanjut
+                Lebih lengkap di Laman berikutnya
               </span>
               <h3 className="text-2xl sm:text-3xl font-black leading-tight">
-                Lihat di laman SAGATHA IV berikutnya
+                Informasi & Daftar lebih lanjut
               </h3>
               <p className="text-xs sm:text-sm mt-3 opacity-90 leading-relaxed">
                 Akses informasi lengkap tentang SAGATHA IV di laman berikutnya.
