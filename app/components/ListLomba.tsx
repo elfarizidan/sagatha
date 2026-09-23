@@ -312,6 +312,17 @@ export default function ListLomba() {
               </div>
             );
           })}
+          <a
+            href="https://linktr.ee/bestsmaittbzbs"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="relative rounded-3xl overflow-hidden cursor-pointer transition-colors duration-500 flex flex-col justify-end p-6 sm:p-8 bg-[#0D816A] hover:bg-[#1FB873] text-white hover:text-[#091c1f] flex-1 min-h-[140px] md:min-h-0"
+          >
+            <span className="flex items-center gap-2 font-black text-lg sm:text-xl lg:text-2xl transition-colors duration-500 md:[writing-mode:vertical-rl] md:rotate-180">
+              <span>lihat lebih lanjut</span>
+              <FontAwesomeIcon icon={faArrowRight} className="text-xs" />
+            </span>
+          </a>
         </div>
       </div>
 
