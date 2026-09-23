@@ -76,7 +76,7 @@ export default function Navbar() {
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 120 120"
-                className="text-white lg:w-6 lg:h-6 w-[28px] h-[28px] cursor-pointer group-hover:opacity-0 transition-opacity duration-300"
+                className="text-white group-hover:text-[#1FB873] lg:w-6 lg:h-6 w-[28px] h-[28px] cursor-pointer transition-colors duration-300"
               >
                 <path
                   stroke="currentColor"
@@ -87,21 +87,6 @@ export default function Navbar() {
                 />
               </svg>
 
-              {/* Group Hover State Icon */}
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 120 120"
-                className="text-[#1FB873] lg:w-6 lg:h-6 w-[28px] h-[28px] cursor-pointer opacity-0 group-hover:opacity-100 transition-opacity duration-300 absolute top-1 left-1"
-              >
-                <path
-                  stroke="currentColor"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="6"
-                  d="M20 60h80M20 40h40M20 80h60"
-                />
-              </svg>
             </button>
 
             {/* Brand Logos (logo1.png & logo2.PNG) */}
@@ -135,7 +120,7 @@ export default function Navbar() {
               className="inline-flex items-center justify-center whitespace-nowrap rounded-full font-bold transition-all duration-300 bg-[#0D816A] text-white hover:bg-[#1FB873] hover:text-[#091c1f] uppercase px-4 lg:px-6 py-1.5 lg:py-2 text-xs lg:text-sm shadow-lg gap-2"
             >
               <span>Details</span>
-              <FontAwesomeIcon icon={faArrowRight} className="text-xs" />
+              <FontAwesomeIcon icon={faArrowRight} className="text-xs" padding-bottom="10"/>
             </a>
           </div>
         </div>

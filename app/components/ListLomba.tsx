@@ -14,7 +14,9 @@ import {
   faCheckCircle,
   faInfoCircle,
   faArrowRight,
-  faExternalLinkAlt
+  faExternalLinkAlt,
+  faArrowUp,
+  faArrowLeft
 } from "@fortawesome/free-solid-svg-icons";
 import { faWhatsapp, faGoogleDrive } from "@fortawesome/free-brands-svg-icons";
 import gsap from "gsap";
@@ -318,9 +320,9 @@ export default function ListLomba() {
             rel="noopener noreferrer"
             className="relative rounded-3xl overflow-hidden cursor-pointer transition-colors duration-500 flex flex-col justify-end p-6 sm:p-8 bg-[#0D816A] hover:bg-[#1FB873] text-white hover:text-[#091c1f] flex-1 min-h-[140px] md:min-h-0"
           >
-            <span className="flex items-center gap-2 font-black text-lg sm:text-xl lg:text-2xl transition-colors duration-500 md:[writing-mode:vertical-rl] md:rotate-180">
+            <span className="flex items-center gap-6 font-black text-lg sm:text-xl lg:text-2xl transition-colors duration-500 md:[writing-mode:vertical-rl] md:rotate-180" padding-right="2">
+              <FontAwesomeIcon icon={faArrowLeft} className="text-xs" />
               <span>lihat lebih lanjut</span>
-              <FontAwesomeIcon icon={faArrowRight} className="text-xs" />
             </span>
           </a>
         </div>
