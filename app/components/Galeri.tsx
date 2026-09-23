@@ -33,7 +33,7 @@ export default function Galeri() {
       id: 1,
       src: "/content/Dok Panitia.jpg",
       title: "Semarak Panitia",
-      desc: "Semangatnya panitia SAGATHA dalam menyelenggarakan dan menyambut seluruh peserta.",
+      desc: "Semangatnya panitia SAGATHA III dalam menyelenggarakan dan menyambut seluruh peserta.",
     },
     {
       id: 2,
