@@ -199,18 +199,18 @@ export default function Galeri() {
 
             <div>
               <span className="text-xs font-bold tracking-widest uppercase text-white/80 group-hover:text-[#091c1f]/80 block mb-2">
-                Informasi lebih lengkap
+                Informasi lebih lanjut
               </span>
               <h3 className="text-2xl sm:text-3xl font-black leading-tight">
-                Lihat di Linktree SAGATHA
+                Lihat di laman SAGATHA IV berikutnya
               </h3>
               <p className="text-xs sm:text-sm mt-3 opacity-90 leading-relaxed">
-                Akses informasi lengkap tentang SAGATHA di Linktree resmi.
+                Akses informasi lengkap tentang SAGATHA IV di laman berikutnya.
               </p>
             </div>
 
             <div className="flex items-center gap-2 font-bold text-xs sm:text-sm">
-              <span>Buka Linktree</span>
+              <span>Buka Laman</span>
               <FontAwesomeIcon icon={faArrowUpRightFromSquare} className="text-xs" />
             </div>
           </a>
