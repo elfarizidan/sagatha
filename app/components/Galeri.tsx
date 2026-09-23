@@ -187,6 +187,33 @@ export default function Galeri() {
               <FontAwesomeIcon icon={faArrowUpRightFromSquare} className="text-xs" />
             </div>
           </a>
+          <a
+            href="https://linktr.ee/bestsmaittbzbs"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="relative w-[280px] sm:w-[360px] h-[360px] sm:h-[440px] rounded-3xl overflow-hidden bg-[#0D816A] hover:bg-[#1FB873] transition-colors duration-500 group cursor-pointer flex-shrink-0 flex flex-col justify-between p-8 text-white hover:text-[#091c1f]"
+          >
+            <div className="w-14 h-14 rounded-2xl bg-[#136368] text-[#1FB873] group-hover:bg-[#091c1f] group-hover:text-white flex items-center justify-center text-xl shadow-lg border border-[#1FB873]">
+              <FontAwesomeIcon icon={faArrowRight} />
+            </div>
+
+            <div>
+              <span className="text-xs font-bold tracking-widest uppercase text-white/80 group-hover:text-[#091c1f]/80 block mb-2">
+                Informasi lebih lengkap
+              </span>
+              <h3 className="text-2xl sm:text-3xl font-black leading-tight">
+                Lihat di Linktree SAGATHA
+              </h3>
+              <p className="text-xs sm:text-sm mt-3 opacity-90 leading-relaxed">
+                Akses informasi lengkap tentang SAGATHA di Linktree resmi.
+              </p>
+            </div>
+
+            <div className="flex items-center gap-2 font-bold text-xs sm:text-sm">
+              <span>Buka Linktree</span>
+              <FontAwesomeIcon icon={faArrowUpRightFromSquare} className="text-xs" />
+            </div>
+          </a>
         </div>
       </div>
 
