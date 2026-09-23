@@ -322,7 +322,7 @@ export default function ListLomba() {
           >
             <span className="flex items-center gap-6 font-black text-lg sm:text-xl lg:text-2xl transition-colors duration-500 md:[writing-mode:vertical-rl] md:rotate-180" padding-right="2">
               <FontAwesomeIcon icon={faArrowLeft} className="text-xs" />
-              <span>lihat lebih lanjut</span>
+              <span>Info & Daftar lebih lanjut</span>
             </span>
           </a>
         </div>
