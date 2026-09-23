@@ -150,7 +150,7 @@ export default function Navbar() {
           <div className="flex items-center justify-between border-b border-white/10 pb-6">
             <div className="flex items-center gap-3">
               <Image
-                src="/contentLogo1.png"
+                src="/content/Logo1.png"
                 alt="Logo 1"
                 width={36}
                 height={36}
@@ -189,7 +189,7 @@ export default function Navbar() {
           </div>
 
           <div className="pt-6 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-white/70">
-            <span>&copy; 2026 SAGATHA. Semarak Artefak &amp; Gelar Talenta.</span>
+            <span>&copy; 2026 SAGATHA.</span>
             <a
               href="#lomba"
               onClick={() => setIsOpen(false)}
