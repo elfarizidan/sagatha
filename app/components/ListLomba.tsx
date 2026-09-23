@@ -78,7 +78,7 @@ export default function ListLomba() {
       fee: "Gratis/Peserta",
       date: "15 November 2026",
       description:
-        "Ajang unjuk kebolehan public speaking dalam Bahasa Inggris. Sampaikan gagasan inspiratifmu mengenai alam dan kondisinya saat ini",
+        "Ajang unjuk kebolehan public speaking dalam Bahasa Inggris",
       rules: [
         "Tema pidato: 'The Lungs of the Earth: Why We Must Save Our Forest'",
         "Durasi pidato 5-7 menit per peserta",
@@ -100,7 +100,7 @@ export default function ListLomba() {
       fee: "Gratis/Peserta",
       date: "15 November 2026",
       description:
-        "Uji ketajaman logika dan pemecahan masalah dalam Olimpiade Matematika dengan soal standar olimpiade nasional (OSN) tingkat SMP.",
+        "Uji ketajaman logika dan pemecahan masalah dalam Olimpiade Matematika",
       rules: [
         "Terdiri dari 2 Babak: Penyisihan (Pilihan Ganda & Isian) dan Final (Essay)",
         "Peserta dilarang menggunakan kalkulator atau alat bantu elektronik",
@@ -121,7 +121,7 @@ export default function ListLomba() {
       fee: "Gratis/Peserta",
       date: "14 November 2026",
       description:
-        "Lomba hafalan Al-Qur'an untuk membentuk generasi penghafal Qur'an yang mutqin, fasih, serta berakhlak mulia.",
+        "Lomba hafalan Al-Qur'an untuk membentuk generasi penghafal Qur'an yang mutqin, serta berakhlak mulia.",
       rules: [
         "Soal Lomba: Juz 29 & 30",
         "Kriteria Penilaian: Tajwid, Fashohah, Kelancaran Hafalan (Hifdz), dan Lagu/Irama",
@@ -164,7 +164,7 @@ export default function ListLomba() {
       fee: "Gratis/Peserta",
       date: "14 November 2026",
       description:
-        "Ajang unjuk kebolehan seni dalam Bahasa Indonesia. dengan penghayatan dan ketegasan untuk menyampaikan seni",
+        "Ajang unjuk kebolehan seni sastra budaya dalam Bahasa Indonesia",
       rules: [
         "Tema Puisi: 'Alam yang Indah'",
         "Durasi Puisi 5-7 menit per peserta",
@@ -186,7 +186,7 @@ export default function ListLomba() {
       fee: "Gratis/Peserta",
       date: "15 November 2026",
       description:
-        "Ajang unjuk kebolehan public speaking dalam membela suatu pihak. Sampaikan gagasan inspiratifmu mengenai alam dan kondisinya saat ini",
+        "Ajang unjuk kebolehan public speaking dalam membela suatu pihak, demi kebaikan",
       rules: [
         "Tema pidato: 'Keadaan Alam Indonesia saat ini'",
         "Penilaian meliputi: Kepercayaan Diri, Pembahasan, Kaidah Bahasa Indonesia, & Kehubungan Dengan Tema",
