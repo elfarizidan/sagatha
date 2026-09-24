@@ -46,7 +46,7 @@ export default function FAQ() {
     {
       question: "Apakah supporter dan keluarga bisa datang menonton?",
       answer:
-        "Sangat diperbolehkan! Supporter sekolah, sanak keluarga, dan umum dapat hadir meramaikan tribun penonton namun harus membayar tiket masuk dengan nominal yang di terakan panitia, atau menyaksikan melalui siaran Livestream Youtube kami.",
+        "Sangat diperbolehkan! Supporter sekolah, sanak keluarga, dan umum dapat hadir meramaikan tribun penonton. Namun, harus membayar tiket masuk dengan nominal yang di terakan panitia, atau bisa menyaksikan gratis melalui siaran Livestream Youtube kami.",
     },
   ];
 
