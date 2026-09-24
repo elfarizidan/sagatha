@@ -71,7 +71,7 @@ export default function About() {
           <div ref={imageRef} className="lg:col-span-5 w-full flex justify-center">
             <div className="relative w-full aspect-[4/5] max-w-md lg:max-w-none rounded-3xl overflow-hidden shadow-2xl group max-h-[55vh] lg:max-h-[65vh]">
               <Image
-                src="/content/Dok Panitia.jpg"
+                src="/content/Potrait.png"
                 alt="Suasana kegiatan SAGATHA"
                 fill
                 className="w-full h-full object-cover object-center transition-transform duration-700 ease-out"
