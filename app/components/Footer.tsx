@@ -48,7 +48,7 @@ export default function Footer() {
                 height={36}
                 className="h-9 w-9 object-contain"
               />
-              <span className="text-xl font-black tracking-wider text-white">SAGATHA</span>
+              <span className="text-xl font-black tracking-wider text-white">SAGATHA IV</span>
             </div>
 
             <p className="mt-4 text-xs sm:text-sm text-white leading-relaxed">
@@ -142,7 +142,7 @@ export default function Footer() {
               </h4>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-3">
                 <a
-                  href="https://wa.me/6285228761864"
+                  href="https://wa.me/6285228761864 (Nissa)"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Hubungi SAGATHA melalui WhatsApp"
@@ -154,7 +154,7 @@ export default function Footer() {
                 </a>
 
                 <a
-                  href="https://wa.me/6285659513039"
+                  href="https://wa.me/6285659513039 (Fazrin)"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Hubungi SAGATHA melalui WhatsApp"
@@ -166,7 +166,7 @@ export default function Footer() {
                 </a>
 
                 <a
-                  href="https://wa.me/6289506904729"
+                  href="https://wa.me/6282214012562 (Alfi)"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Hubungi SAGATHA melalui WhatsApp"
@@ -174,7 +174,7 @@ export default function Footer() {
                   className="inline-flex min-w-0 items-center gap-2 text-white transition hover:text-[#1FB873] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#1FB873]"
                 >
                   <FontAwesomeIcon icon={faWhatsapp} className="text-xl text-[#1FB873]" />
-                  <span className="text-xs font-semibold break-all">+62 89506904729</span>
+                  <span className="text-xs font-semibold break-all">+62 82214012562</span>
                 </a>
 
                 <a
