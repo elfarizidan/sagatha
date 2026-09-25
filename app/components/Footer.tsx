@@ -142,7 +142,7 @@ export default function Footer() {
               </h4>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-3">
                 <a
-                  href="https://wa.me/6285228761864 (Nissa)"
+                  href="https://wa.me/6285228761864"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Hubungi SAGATHA melalui WhatsApp"
@@ -150,11 +150,11 @@ export default function Footer() {
                   className="inline-flex min-w-0 items-center gap-2 text-white transition hover:text-[#1FB873] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#1FB873]"
                 >
                   <FontAwesomeIcon icon={faWhatsapp} className="text-xl text-[#1FB873]" />
-                  <span className="text-xs font-semibold break-all">+62 85228761864</span>
+                  <span className="text-xs font-semibold break-all">+62 85228761864 (Nissa)</span>
                 </a>
 
                 <a
-                  href="https://wa.me/6285659513039 (Fazrin)"
+                  href="https://wa.me/6285659513039"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Hubungi SAGATHA melalui WhatsApp"
@@ -162,11 +162,11 @@ export default function Footer() {
                   className="inline-flex min-w-0 items-center gap-2 text-white transition hover:text-[#1FB873] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#1FB873]"
                 >
                   <FontAwesomeIcon icon={faWhatsapp} className="text-xl text-[#1FB873]" />
-                  <span className="text-xs font-semibold break-all">+62 85659513039</span>
+                  <span className="text-xs font-semibold break-all">+62 85659513039 (Fazrin)</span>
                 </a>
 
                 <a
-                  href="https://wa.me/6282214012562 (Alfi)"
+                  href="https://wa.me/6282214012562"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Hubungi SAGATHA melalui WhatsApp"
@@ -174,7 +174,7 @@ export default function Footer() {
                   className="inline-flex min-w-0 items-center gap-2 text-white transition hover:text-[#1FB873] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#1FB873]"
                 >
                   <FontAwesomeIcon icon={faWhatsapp} className="text-xl text-[#1FB873]" />
-                  <span className="text-xs font-semibold break-all">+62 82214012562</span>
+                  <span className="text-xs font-semibold break-all">+62 82214012562 (Alfi)</span>
                 </a>
 
                 <a
