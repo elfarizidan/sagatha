@@ -54,7 +54,7 @@ export default function ListLomba() {
       image: "/content/Lomba Futsal.png",
       target: "SMP/MTs/Sederajat",
       prize: "Piala, Sertifikat, Uang Tunai",
-      fee: "Rp 175.000 / Tim (Early Bird)",
+      fee: "Rp 200.000 / Tim",
       date: "14 - 15 November 2026",
       description:
         "Turnamen futsal antar pelajar jenjang SMP/MTs/Sederjat. Dengan sportivitas yang tinggi",
