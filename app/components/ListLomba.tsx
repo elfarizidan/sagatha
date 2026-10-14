@@ -166,7 +166,7 @@ export default function ListLomba() {
       description:
         "Ajang unjuk kebolehan seni sastra budaya dalam Bahasa Indonesia",
       rules: [
-        "Tema Puisi: 'Alam yang Indah'",
+        "Tema dan Judul Puisi telah di tentukan oleh panitia",
         "Durasi Puisi 5-7 menit per peserta",
         "Penilaian meliputi: Artikulasi, Mimik, Penghayatan, & Kesesuaian teks",
         "Wajib menggunakan pakaian yang mendukung, namun tetap sopan dan nyaman",
