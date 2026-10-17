@@ -52,7 +52,7 @@ export default function Footer() {
             </div>
 
             <p className="mt-4 text-xs sm:text-sm text-white leading-relaxed">
-              Saga Thariq 4 — Ajang kejuaraan pelajar bergengsi menghadirkan kompetisi Futsal, Speech, Olimpiade Matematika, MHQ, Puisi, Mural, dan Debat.
+              Saga Thariq 4 — Ajang kejuaraan pelajar bergengsi siswa dan siswi tingkat SMP/MTs/Sederajat yang menghadirkan kompetisi Futsal, Speech, Olimpiade Matematika, MHQ, Puisi, Mural, dan Debat.
             </p>
 
             {/* Social Media Links by Account */}
