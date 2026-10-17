@@ -65,7 +65,7 @@ export default function ListLomba() {
       ],
       contactPerson: "via form",
       registrationUrl: "https://forms.gle/2cNpkirviAxKGtat8",
-      driveUrl: "https://drive.google.com/file/d/1sHqm8aZpzYQfsZkajCItdXy3gimVSfki/view?usp=sharing",
+      driveUrl: "https://drive.google.com/file/d/1_rpZ1lvUcour_lzBXFPbuBqIQ_uV3Z70/view?usp=sharing",
     },
     {
       id: "speech",
