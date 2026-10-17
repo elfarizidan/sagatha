@@ -87,7 +87,7 @@ export default function ListLomba() {
       ],
       contactPerson: "via Form",
       registrationUrl: "https://forms.gle/2cNpkirviAxKGtat8",
-      driveUrl: "https://drive.google.com/file/d/1z4t2OVXY5ySEqHJS11VZ3QmSDIVYj2zC/view?usp=sharing",
+      driveUrl: "https://drive.google.com/file/d/1Bi1UKN3pfWFf0a7q_93EPxoYUc2jLdsk/view?usp=sharing",
     },
     {
       id: "olim-mtk",
