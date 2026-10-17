@@ -21,22 +21,22 @@ export default function FAQ() {
     {
       question: "Apa itu SAGATHA IV?",
       answer:
-        "SAGATHA (Saga Thariq) adalah event kompetisi tahunan tingkat pelajar SMP/MTs/Sederajat yang diselenggarakan untuk mengasah serta merayakan talenta di bidang olahraga (Futsal), kebahasaan (Speech & Debat), sains (Olimpiade Matematika), seni (Mural & Puisi), dan keagamaan (MHQ).",
+        "SAGATHA (Saga Thariq) adalah event kompetisi tahunan untuk siswa dan siswi tingkat pelajar SMP/MTs/Sederajat yang diselenggarakan untuk mengasah serta merayakan talenta di bidang olahraga (Futsal), kebahasaan (Speech & Debat), sains (Olimpiade Matematika), seni (Mural & Puisi), dan keagamaan (MHQ).",
     },
     {
       question: "Siapa saja yang berhak mendaftar kompetisi SAGATHA IV?",
       answer:
-        "Peserta terbuka untuk santri atau peserta didik aktif tingkat SMP/MTs/Sederaja dari berbagai sekolah di seluruh Indonesia khususnya Jawa Barat dan JaBoDeTaBek sesuai dengan kategori syarat yang tercantum di masing-masing cabang lomba.",
+        "Peserta terbuka untuk seluruh siswa dan siswi peserta didik aktif tingkat SMP/MTs/Sederaja dari berbagai sekolah di seluruh Indonesia khususnya Jawa Barat dan JaBoDeTaBek sesuai dengan kategori syarat yang tercantum di masing-masing cabang lomba.",
     },
     {
       question: "Bagaimana cara melakukan pendaftaran dan pembayaran?",
       answer:
-        "Pembayaran bisa melihat tampilan menu di atas dengan nama 'Metode Pembayaran' dan tinggal ikuti instruksi di dalamnya. Pendaftaran dilakukan secara langsung online dengan memilih cabang lomba pada website ini, klik 'Detail & Syarat', lalu tekan tombol 'Daftar' dan langsung terhubung dengan google form untuk mengisi pendaftaran lomba, atau bisa klik whatsapp untuk bertanya terlebih dahulu kepada panitia yang berasangkutan.",
+        "Pembayaran bisa menghubungi admin atau cek di flayer SAGATHA IV. Pendaftaran dilakukan secara langsung online dengan memilih cabang lomba pada website ini, klik 'Detail & Syarat', lalu tekan tombol 'Daftar' dan langsung terhubung dengan google form untuk mengisi pendaftaran lomba, atau bisa klik buku panduan untuk melihat ketentuan/kriteria lomba.",
     },
     {
       question: "Apakah peserta mendapatkan sertifikat dan fasilitas?",
       answer:
-        "Ya! Seluruh peserta, pembimbing, dan Tenant Bazzar resmi yang terdaftar akan mendapatkan e-Sertifikat keikutsertaan berakreditasi, id card peserta, snackbox/konsumsi, serta kesempatan memenangkan total hadiah uang tunai & piala/medali.",
+        "Ya! Seluruh peserta, pembimbing, dan Tenant Bazzar resmi yang terdaftar akan mendapatkan Sertifikat keikutsertaan berakreditasi, id card peserta, snackbox/konsumsi, tempat istirahat, serta kesempatan memenangkan total hadiah uang tunai & piala/medali.",
     },
     {
       question: "Dimana lokasi SAGATHA IV Dilaksanaan?",
