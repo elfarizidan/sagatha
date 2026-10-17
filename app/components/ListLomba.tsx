@@ -57,7 +57,7 @@ export default function ListLomba() {
       fee: "Rp 200.000 / Tim",
       date: "14 - 15 November 2026",
       description:
-        "Turnamen futsal antar pelajar jenjang SMP/MTs/Sederjat. Dengan sportivitas yang tinggi",
+        "Turnamen futsal antar pelajar putra jenjang SMP/MTs/Sederjat. Dengan sportivitas yang tinggi",
       rules: [
         "Biaya Early bird samapai 30 September, setelahnya akan di kenakan biaya normal",
         "Memberikan uang deposit sebesar Rp.50.000/tim saat registrasi ulang",
@@ -78,7 +78,7 @@ export default function ListLomba() {
       fee: "Gratis/Peserta",
       date: "15 November 2026",
       description:
-        "Ajang unjuk kebolehan public speaking dalam Bahasa Inggris",
+        "Ajang unjuk kebolehan public speaking siswa dan siswi dalam Bahasa Inggris",
       rules: [
         "Tema pidato: 'The Lungs of the Earth: Why We Must Save Our Forest'",
         "Durasi pidato 5-7 menit per peserta",
@@ -100,7 +100,7 @@ export default function ListLomba() {
       fee: "Gratis/Peserta",
       date: "15 November 2026",
       description:
-        "Uji ketajaman logika dan pemecahan masalah dalam Olimpiade Matematika",
+        "Uji ketajaman logika dan pemecahan masalah siswa dan siswi dalam Olimpiade Matematika",
       rules: [
         "Terdiri dari 2 Babak: Penyisihan (Pilihan Ganda & Isian) dan Final (Essay)",
         "Peserta dilarang menggunakan kalkulator atau alat bantu elektronik",
@@ -142,7 +142,7 @@ export default function ListLomba() {
       fee: "Rp. 50.000/Tim",
       date: "14 November 2026",
       description:
-        "Ajang menguji ke-kreatifan setiap kelompok, dan di lukis di sebuah tempat yang baik",
+        "Ajang menguji ke-kreatifan setiap kelompok putra dan putri, dengan lukis di sebuah tempat yang baik",
       rules: [
         "Tema mural: 'Hutan & Alam yang indah'",
         "Durasi 1 jam 30 menit per tim",
@@ -164,7 +164,7 @@ export default function ListLomba() {
       fee: "Gratis/Peserta",
       date: "14 November 2026",
       description:
-        "Ajang unjuk kebolehan seni sastra budaya dalam Bahasa Indonesia",
+        "Ajang unjuk kebolehan seni sastra budaya siswa dan siswi dalam Bahasa Indonesia",
       rules: [
         "Tema dan Judul Puisi telah di tentukan oleh panitia",
         "Durasi Puisi 5-7 menit per peserta",
@@ -186,7 +186,7 @@ export default function ListLomba() {
       fee: "Gratis/Peserta",
       date: "15 November 2026",
       description:
-        "Ajang unjuk kebolehan public speaking dalam membela suatu pihak, demi kebaikan",
+        "Ajang unjuk kebolehan argumen siswa dan siswi dalam membela suatu pihak, demi kebaikan",
       rules: [
         "Tema pidato: 'Keadaan Alam Indonesia saat ini'",
         "Penilaian meliputi: Kepercayaan Diri, Pembahasan, Kaidah Bahasa Indonesia, & Kehubungan Dengan Tema",
