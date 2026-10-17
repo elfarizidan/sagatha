@@ -194,7 +194,7 @@ export default function ListLomba() {
       ],
       contactPerson: "via Form",
       registrationUrl: "https://forms.gle/2cNpkirviAxKGtat8",
-      driveUrl: "https://drive.google.com/file/d/1U5mjFpushT6RObTAIea59cFLVT1uQaSK/view?usp=sharing",
+      driveUrl: "https://drive.google.com/file/d/1v26_TBrEgGu0EruBXemsIOPq1sR33CtE/view?usp=sharing",
     },
 ];
     
