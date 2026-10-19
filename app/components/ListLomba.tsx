@@ -129,7 +129,7 @@ export default function ListLomba() {
       ],
       contactPerson: "via Form",
       registrationUrl: "https://forms.gle/2cNpkirviAxKGtat8",
-      driveUrl: "https://drive.google.com/file/d/1viyjbJ8622kACW-ToayfOdUkuR-bU6cV/view?usp=sharing",
+      driveUrl: "https://drive.google.com/file/d/1bj9X8wivJDJZx4RUKMxiz6Hv2ZUbYVWT/view?usp=drivesdk",
     },
     {
       id: "Mural",
