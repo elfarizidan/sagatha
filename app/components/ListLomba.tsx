@@ -151,7 +151,7 @@ export default function ListLomba() {
       ],
       contactPerson: "via Form",
       registrationUrl: "https://forms.gle/2cNpkirviAxKGtat8",
-      driveUrl: "https://drive.google.com/file/d/13j3G3n3KFcPF6UKyKr33tRnh8WxoDYSy/view?usp=sharing",
+      driveUrl: "https://drive.google.com/file/d/12wqbJXw3sn3k77fJIGS6NG4d5Gyg1X3i/view?usp=sharing",
     },
     {
       id: "puisi",
