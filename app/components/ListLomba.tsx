@@ -173,7 +173,7 @@ export default function ListLomba() {
       ],
       contactPerson: "via Form",
       registrationUrl: "https://forms.gle/2cNpkirviAxKGtat8",
-        driveUrl: "https://drive.google.com/file/d/1zLWxKWXB50cFYWyhR-33RuYFm5ekDJEO/view?usp=sharing",
+        driveUrl: "https://drive.google.com/file/d/1me9hukhTlLW6UaNmbfYfPJAuinbCMIiB/view?usp=sharing",
     },
     {
       id: "Debat",
