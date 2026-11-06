@@ -108,7 +108,7 @@ export default function ListLomba() {
       ],
       contactPerson: "via Form",
       registrationUrl: "https://forms.gle/2cNpkirviAxKGtat8",
-      driveUrl: "https://drive.google.com/file/d/1o7mjYAK7gxvF9VvOoVbkPPhI91lUph0s/view?usp=sharing",
+      driveUrl: "https://drive.google.com/file/d/1rZpjww52WQ30Z69eFXjXd7q6b0_o6XQs/view?usp=sharing",
     },
     {
       id: "mhq",
