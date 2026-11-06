@@ -76,7 +76,7 @@ export default function ListLomba() {
       target: "SMP/MTs/Sederajat",
       prize: "Sertifikat, Piala, Uang Tunai",
       fee: "Gratis/Peserta",
-      date: "15 November 2026",
+      date: "14 November 2026",
       description:
         "Ajang unjuk kebolehan public speaking siswa dan siswi dalam Bahasa Inggris",
       rules: [
@@ -140,7 +140,7 @@ export default function ListLomba() {
       target: "SMP/MTs/Sederajat",
       prize: "Sertifikat, Piala, Uang Tunai",
       fee: "Rp. 50.000/Tim",
-      date: "14 November 2026",
+      date: "15 November 2026",
       description:
         "Ajang menguji ke-kreatifan setiap kelompok putra dan putri, dengan lukis di sebuah tempat yang baik",
       rules: [
@@ -162,7 +162,7 @@ export default function ListLomba() {
       target: "SMP/MTs/Sederajat",
       prize: "Sertifikat, Piala, Uang Tunai",
       fee: "Gratis/Peserta",
-      date: "14 November 2026",
+      date: "15 November 2026",
       description:
         "Ajang unjuk kebolehan seni sastra budaya siswa dan siswi dalam Bahasa Indonesia",
       rules: [
@@ -184,7 +184,7 @@ export default function ListLomba() {
       target: "SMP/MTs/Sederajat",
       prize: "Sertifikat, Piala, Uang Tunai",
       fee: "Gratis/Peserta",
-      date: "15 November 2026",
+      date: "14 November 2026",
       description:
         "Ajang unjuk kebolehan argumen siswa dan siswi dalam membela suatu pihak, demi kebaikan",
       rules: [
@@ -194,7 +194,7 @@ export default function ListLomba() {
       ],
       contactPerson: "via Form",
       registrationUrl: "https://forms.gle/2cNpkirviAxKGtat8",
-      driveUrl: "https://drive.google.com/file/d/1v26_TBrEgGu0EruBXemsIOPq1sR33CtE/view?usp=sharing",
+      driveUrl: "https://drive.google.com/file/d/1pgMMMYMt7-ny1y13HlgBXrVzy0tZMgd_/view?usp=sharing",
     },
 ];
     
