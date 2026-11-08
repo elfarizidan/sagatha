@@ -96,7 +96,7 @@ export default function ListLomba() {
       icon: faCalculator,
       image: "/content/Lomba OSN MTK.png",
       target: "SMP/MTs/Sederajat",
-      prize: "Piagam, Medali, Uang Tunai, Beasiswa",
+      prize: "Piagam, Piala, Uang Tunai, Beasiswa",
       fee: "Gratis/Peserta",
       date: "15 November 2026",
       description:
