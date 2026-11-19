@@ -16,10 +16,10 @@ import gsap from "gsap";
   ====================================================================
   COUNTDOWN TARGET DATE CONFIGURATION 
   Change this string to set your own target date and time:
-  Format: "YYYY-MM-DDTHH:mm:ss" (e.g. "2026-11-14T07:30:05")
+  Format: "YYYY-MM-DDTHH:mm:ss" (e.g. "2027-11-14T07:30:05")
   ====================================================================
 */
-export const EVENT_TARGET_DATE = "2026-11-14T07:30:05";
+export const EVENT_TARGET_DATE = "2027-11-14T07:30:05";
 
 export default function Hero() {
   const heroRef = useRef<HTMLDivElement>(null);
@@ -112,7 +112,7 @@ export default function Hero() {
           ref={titleRef}
           className="mt-6 sm:mt-10 md:mt-12 text-5xl sm:text-7xl md:text-8xl lg:text-9xl font-black text-white tracking-tight max-w-5xl leading-none text-center mx-auto"
         >
-          <span className="text-[#ffffff] block text-center">SAGATHA IV</span>
+          <span className="text-[#ffffff] block text-center">To SAGATHA V</span>
         </h1>
 
 
