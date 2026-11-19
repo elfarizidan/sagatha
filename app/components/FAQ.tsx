@@ -19,34 +19,34 @@ export default function FAQ() {
 
   const faqs: FAQItem[] = [
     {
-      question: "Apa itu SAGATHA IV?",
+      question: "Apa itu SAGATHA V?",
       answer:
         "SAGATHA (Saga Thariq) adalah event kompetisi tahunan untuk siswa dan siswi tingkat pelajar SMP/MTs/Sederajat yang diselenggarakan untuk mengasah serta merayakan talenta di bidang olahraga (Futsal), kebahasaan (Speech & Debat), sains (Olimpiade Matematika), seni (Mural & Puisi), dan keagamaan (MHQ).",
     },
     {
-      question: "Siapa saja yang berhak mendaftar kompetisi SAGATHA IV?",
+      question: "Siapa saja yang berhak mendaftar kompetisi SAGATHA V?",
       answer:
         "Peserta terbuka untuk seluruh siswa dan siswi peserta didik aktif tingkat SMP/MTs/Sederaja dari berbagai sekolah di seluruh Indonesia khususnya Jawa Barat dan JaBoDeTaBek sesuai dengan kategori syarat yang tercantum di masing-masing cabang lomba.",
     },
     {
       question: "Bagaimana cara melakukan pendaftaran dan pembayaran?",
       answer:
-        "Pembayaran bisa menghubungi admin atau cek di flayer SAGATHA IV. Pendaftaran dilakukan secara langsung online dengan memilih cabang lomba pada website ini, klik 'Detail & Syarat', lalu tekan tombol 'Daftar' dan langsung terhubung dengan google form untuk mengisi pendaftaran lomba, atau bisa klik buku panduan untuk melihat ketentuan/kriteria lomba.",
+        "Pembayaran bisa menghubungi admin atau cek di flayer SAGATHA V. Pendaftaran dilakukan secara langsung online dengan memilih cabang lomba pada website ini, klik 'Detail', lalu tekan tombol 'Daftar' dan langsung terhubung dengan google form untuk mengisi pendaftaran lomba, atau bisa klik buku panduan untuk melihat ketentuan/kriteria lomba.",
     },
     {
       question: "Apakah peserta mendapatkan sertifikat dan fasilitas?",
       answer:
-        "Ya! Seluruh peserta, pembimbing, dan Tenant Bazzar resmi yang terdaftar akan mendapatkan Sertifikat keikutsertaan berakreditasi, id card peserta, snackbox/konsumsi, tempat istirahat, serta kesempatan memenangkan total hadiah uang tunai & piala/medali.",
+        "Ya! Seluruh peserta, pembimbing, dan sponsorship resmi yang terdaftar akan mendapatkan Sertifikat keikutsertaan berakreditasi, id card peserta, serta kesempatan memenangkan total hadiah uang tunai & piala.",
     },
     {
-      question: "Dimana lokasi SAGATHA IV Dilaksanaan?",
+      question: "Dimana lokasi SAGATHA V Dilaksanaan?",
       answer:
         "Seluruh rangkaian lomba dan final akan dilaksanakan di kampus SMAIT Thariq Bin Ziyad Boarding School. Detail petunjuk arah dan peta lokasi interaktif dapat dilihat pada bagian Footer di bawah.",
     },
     {
       question: "Apakah supporter dan keluarga bisa datang menonton?",
       answer:
-        "Sangat diperbolehkan! Supporter sekolah, sanak keluarga, dan umum dapat hadir meramaikan tribun penonton. Namun, harus membayar tiket masuk dengan nominal yang di terakan panitia, atau bisa menyaksikan gratis melalui siaran Livestream Youtube kami.",
+        "Sangat diperbolehkan! Supporter sekolah, sanak keluarga, dan umum dapat hadir meramaikan tribun penonton. Atau bisa menyaksikan melalui siaran Livereport di medsos kami.",
     },
   ];
 
