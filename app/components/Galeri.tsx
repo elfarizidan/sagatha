@@ -50,7 +50,7 @@ export default function Galeri() {
     {
       id: 4,
       src: "/content/Dok Bazzar.PNG",
-      title: "Kemeriahan Bazzar Sagatha III",
+      title: "Kemeriahan Bazzar Sagatha IV",
       desc: "Ramainya Bazzar tenant UMKM, mendukung semangat peserta dan tim.",
     },
     {
