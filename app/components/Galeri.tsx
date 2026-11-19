@@ -118,7 +118,7 @@ export default function Galeri() {
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-4 border-b border-white/20 pb-6">
           <div>
             <h2 className="text-3xl sm:text-5xl font-black text-white tracking-tight uppercase">
-              Album <span className="text-[#1FB873]">SAGATHA III 2025</span>
+              Album <span className="text-[#1FB873]">SAGATHA IV 2026</span>
             </h2>
           </div>
           <p className="text-sm sm:text-base text-white/90 max-w-md">
