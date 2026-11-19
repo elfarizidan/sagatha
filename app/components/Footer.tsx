@@ -238,7 +238,7 @@ export default function Footer() {
 
         {/* Bottom Copyright */}
         <div className="pt-4 flex flex-col sm:flex-row items-center justify-between gap-2 text-[11px] text-white/90">
-          <p>© 2026 SAGATHAIV Competition Event. All rights reserved.</p>
+          <p>© 2026 SAGATHA Competition Event. All rights reserved.</p>
           <p className="flex items-center gap-1">SAGATHA IT Team</p>
         </div>
       </div>
